@@ -1,0 +1,215 @@
+{
+  "Angrypower": {
+    "NAME": "Rage",
+    "DESCRIPTIONS": [
+      	"9 stack at most, gain #b",
+      	" ShowTime and [R], lose #b1 stack per turn.",
+      	"9 stack at most, gain #b",
+      	" ShowTime and [R]."
+    ]
+  },
+  "showtime": {
+    "NAME": "ShowTime",
+    "DESCRIPTIONS": [
+		"Gain #b",
+		" #yBlock , reset at the end of your turn. Losing Hp by being attacked reduces ShowTime by #b1 .",
+		"Gain #b",
+		" #yBlock . Losing Hp by being attacked reduces ShowTime by #b1 ."
+    ]
+  },
+  "Catastrophepower": {
+    "NAME": "Calamity",
+    "DESCRIPTIONS": [
+		"Energy used when you use powerful Pandora attack, gain 1 ShowTime using Firearms attack cards with 10% chance for every stack of Calamity, 9 at most."
+    ]
+  },
+  "CoyoteApower": {
+    "NAME": "Coyote-A",
+    "DESCRIPTIONS": [
+		"Gain 1 ShowTime, gain 1 Calamity with 40% chance when using related attack cards, add 1 Fireworks into your hand for every 4 stack of ShowTime gained when you have Gunslinger on you."
+    ]
+  },
+  "Devilpower": {
+    "NAME": "Devil Trigger",
+    "DESCRIPTIONS": [
+		"Heal 3 Hp every #b3 attack, gain 7 strength for 1 turn when you have 7 or more Showtime on you, this effect triggers 5 times an most in one turn, lose 18 strength when this over."
+    ]
+  },
+  "Dimensionpower": {
+    "NAME": "DimensionFissure",
+    "DESCRIPTIONS": [
+		"Can be triggered by Sheathing, lose 1 per turn."
+    ]
+  },
+  "EbonyIvorypower": {
+    "NAME": "Ebony&Ivory",
+    "DESCRIPTIONS": [
+		"Deal additional 3 damage when using related attack cards, gain 1 Calamity with 50% chance. Add 1  Rainstorm into your hand for every 3 stack of Showtime gained when you have Gunslinger on you."
+    ]
+  },
+  "Endlessswordpower": {
+    "NAME": "EndlessSword",
+    "DESCRIPTIONS": [
+		"Deal #b",
+		" #ydamage to the attacker when attacked, 15 stack at most."
+    ]
+  },
+  "Endlessswordpower2": {
+    "NAME": "EndlessSword",
+    "DESCRIPTIONS": [
+		"Deal #b",
+		" #ydamage to the enemy at the start of enemy's turn, reset to 0 after that. 15 stack at most.",
+		"Deal #b",
+		" #ydamage to the enemy at the start of enemy's turn, reset to 0 after that. 15 stack at most."
+    ]
+  },
+  "Flex1": {
+    "NAME": "Flex",
+    "DESCRIPTIONS": [
+		"Lose #b",
+		" #yStrength after playing an attack card."
+    ]
+  },
+  "Flex2": {
+    "NAME": "Flex",
+    "DESCRIPTIONS": [
+		"Lose #b",
+		" #yStrength at the end of your turn. 。"
+    ]
+  },
+  "Gilgameshpower": {
+    "NAME": "Gilgamesh",
+    "DESCRIPTIONS": [
+		"Strengthen related cards, add 1 Real Impact into your hand for every 4 stack of ShowTime gained when you have SwordMaster on you. Lose 5 strength when removed."
+    ]
+  },
+  "Goldorbpower": {
+    "NAME": "Gold Orb",
+    "DESCRIPTIONS": [
+		"If you die in this combat, heal to 50% of your Max Hp instead once"
+    ]
+  },
+  "Greenorbpower": {
+    "NAME": "Green Orb",
+    "DESCRIPTIONS": [
+		"{Heal 1-10 Hp randomly after killing this enemy."
+    ]
+  },
+  "Gunslingerpower": {
+    "NAME": "Gunslinger",
+    "DESCRIPTIONS": [
+		"All Firearms attack cards that are not colorless cost 0 this turn, gain 1 ShowTime and 1 Calamity for every Firearms attack card you play."
+    ]
+  },
+  "Honeycombofirepower": {
+    "NAME": "Honeycombo Fire",
+    "DESCRIPTIONS": [
+		"Your firearms attack cards can be played twice with 20% chance, chance raises to 50% when equipping Ebony&Ivory."
+    ]
+  },
+  "Luciferpower": {
+    "NAME": "Lucifer",
+    "DESCRIPTIONS": [
+		"Gain 1 ShowTime every time you play a related card. Add 1 PIN-UP into your hand for every 4 stack of ShowTime gained when you have SwordMaster on you."
+    ]
+  },
+  "Luciferpower2": {
+    "NAME": "Lucifer",
+    "DESCRIPTIONS": [
+		"Gain 1 ShowTime every time you play a related card. Add 1 PIN-UP and 1 Climax into your hand for every 4 stack of ShowTime gained when you have SwordMaster on you."
+    ]
+  },
+  "Pandorapower": {
+    "NAME": "Pandora",
+    "DESCRIPTIONS": [
+		"Add 1 random colorless Firearms attack card into your hand at the start of your turn and for every 4 stack of ShowTime gained when you have Gunslinger on you. Gain 1 Calamity for every Firearms attack cards you play with 80% chance."
+    ]
+  },
+  "Pandorapower2": {
+    "NAME": "Pandora",
+    "DESCRIPTIONS": [
+		"Add 2 random colorless Firearms attack card into your hand at the start of your turn and for every 4 stack of ShowTime gained when you have Gunslinger on you. Gain 1 Calamity for every Firearms attack cards you play with 80% chance."
+    ]
+  },
+  "Rebellionpower": {
+    "NAME": "Rebellion",
+    "DESCRIPTIONS": [
+		"MillionStab deal 2 more damage, gain special effect when using related attack cards. Add 1 Over Driver into you hand for every 3 stack of ShowTime gained when you have SwordMaster on you."
+    ]
+  },
+  "Rebellionpower2": {
+    "NAME": "Rebellion",
+    "DESCRIPTIONS": [
+		"MillionStab deal 2 more damage, gain special effect when using related attack cards. Add 1 Over Driver into you hand for every 3 stack of ShowTime gained when you have SwordMaster on you.Lose 2 strength when removed."
+    ]
+  },
+  "Redorbpower": {
+    "NAME": "Red Orb",
+    "DESCRIPTIONS": [
+		"Gain 1-100 coins after killing this enemy."
+    ]
+  },
+  "Royalguardpower": {
+    "NAME": "Royal Guard",
+    "DESCRIPTIONS": [
+		"Immune to attack with 50% chance, gain 1 Rage when attacked, add 1 Release into your hand at the start of your next turn when you have 3 or more Rage."
+    ]
+  },
+  "Royalguardpower2": {
+    "NAME": "Royal Guard",
+    "DESCRIPTIONS": [
+		"Immune to attack with 60% chance, gain 2 Rage when attacked, add 1 Release into your hand at the start of your next turn when you have 3 or more Rage. Add 1 Royal Release into your hand at the start of your next turn when you have 6 or more Rage."
+    ]
+  },
+  "Skystarpower": {
+    "NAME": "Sky Star",
+    "DESCRIPTIONS": [
+		"Style(Sky Star not included)、Rage、ShowTime will not reset to 0 or reduce at the end of your turn. Gain 1 Sky Star when you have 7 or more ShowTime, can trigger 3 times at most in one turn. "
+    ]
+  },
+  "SSSpower": {
+    "NAME": "Style Score System Ver.1",
+    "DESCRIPTIONS": [
+		"Have triggered #b",
+		" times this turn.",
+		"Have triggered #b",
+		" times this turn."
+    ]
+  },
+  "Swordmasterpower": {
+    "NAME": "Sword Master",
+    "DESCRIPTIONS": [
+		"Your melee attack cards will be played twice,At the same time, triggering style scoring system in this state will turn flex into strength , removed at the end of our turn."
+    ]
+  },
+  "Weaponreturnpower": {
+    "NAME": "Weapon Return",
+    "DESCRIPTIONS": [
+		"When Weapon power removed, add a same weapon card which is not upgraded into your discard pile( Yamato not included)."
+    ]
+  },
+  "Weaponreturnpower2": {
+    "NAME": "Weapon Return",
+    "DESCRIPTIONS": [
+		"When Weapon power removed, add a same weapon card which is upgraded into your discard pile( Yamato not included)."
+    ]
+  },
+  "Whiteorbpower": {
+    "NAME": "White Orb",
+    "DESCRIPTIONS": [
+		"Gain 1-3 [R] after killing this enemy."
+    ]
+  },
+  "XuanyunPower": {
+    "NAME": "Stun",
+    "DESCRIPTIONS": [
+		"Make the enemy incapable of action."
+    ]
+  },
+  "Yamatopower": {
+    "NAME": "Yamato",
+    "DESCRIPTIONS": [
+		"Lasts 1 turn, add 1 random colorless Melee attack card into your hand when you gain 4 or more ShowTime, add 1 Sheathing and remove Yamato at the start of your next turn."
+    ]
+  }
+}

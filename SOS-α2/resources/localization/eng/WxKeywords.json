@@ -1,0 +1,152 @@
+{
+	"keywords": [
+    {
+    	"NAMES": [
+        	"showtime",
+        	"ShowTime"
+      	],
+      	"DESCRIPTION": "Removed at the end of your turn, gain block equal to the stack of Showtime removed"
+    },{
+    	"NAMES": [
+        	"melee",
+        	"Melee"
+      	],
+      	"DESCRIPTION": "Melee attack cards, can be strengthened by SwordMaster style."
+    },{
+    	"NAMES": [
+        	"firearms",
+        	"Firearms"
+      	],
+      	"DESCRIPTION": "Firearms attack cards, can be strengthened by Gunslinger style."
+    },{
+    	"NAMES": [
+        	"fixeddamage",
+        	"FixedDamage"
+      	],
+      	"DESCRIPTION": "Deal damage uneffected by strength and state."
+    },{
+    	"NAMES": [
+        	"flex",
+        	"Flex"
+      	],
+      	"DESCRIPTION": "Same effect as strength, lost at the end of your turn."
+    },{
+    	"NAMES": [
+        	"swordmaster",
+        	"SwordMaster"
+      	],
+      	"DESCRIPTION": "Strength Melee attack cards, gain special effect when you have Melee weapon on you."
+    },{
+    	"NAMES": [
+        	"gunslinger",
+        	"Gunslinger"
+      	],
+      	"DESCRIPTION": "Strength Firearms attack cards, gain special effect when you have Firearmsweapon on you."
+    },{
+    	"NAMES": [
+        	"deviltrigger",
+        	"DevilTrigger"
+      	],
+      	"DESCRIPTION": "Heal 3 Hp every 3 attacks, gain 7 strength every time SSS is triggered, lose 18 strength when effect removed."
+    },{
+    	"NAMES": [
+        	"royalguard",
+        	"RoyalGuard"
+      	],
+      	"DESCRIPTION": "Immune to attack by chance, gain Rage when attacked."
+    },{
+    	"NAMES": [
+        	"dreadnaught",
+        	"Dreadnaught"
+      	],
+      	"DESCRIPTION": "Lose Rage, gain Block based on Rage."
+    },{
+    	"NAMES": [
+        	"rage",
+        	"Rage"
+      	],
+      	"DESCRIPTION": "Gain Showtime and [R] equal to the stack of Rage at the start of your turn, lose 1 per turn, skills related to Rage are strengthened."
+    },{
+    	"NAMES": [
+        	"style",
+        	"Style"
+      	],
+      	"DESCRIPTION": "This is a style card, gain corresponding style."
+    },{
+    	"NAMES": [
+        	"skystar",
+        	"SkyStar"
+      	],
+      	"DESCRIPTION": "Strength Style、Showtime、Rage by entending their turns."
+    },{
+    	"NAMES": [
+        	"yamato",
+        	"Yamato"
+      	],
+      	"DESCRIPTION": "Related cards deal damage that ignores Block."
+    },{
+    	"NAMES": [
+        	"endlesssword",
+        	"EndlessSword"
+      	],
+      	"DESCRIPTION": "Deal damage to the attacker when attacked when you have Endlesssword on you, deal damage over time when the enemies have Endlesssword on them, 15 layers at most."
+    },{
+    	"NAMES": [
+        	"dimensionfissure",
+        	"DimensionFissure"
+      	],
+      	"DESCRIPTION": "Can trigger special effect with Sheathing, lose 1 per turn."
+    },{
+    	"NAMES": [
+        	"truedamage",
+        	"TrueDamage"
+      	],
+      	"DESCRIPTION": "Deal damage that ignores Block, will not trigger thorns."
+    },{
+    	"NAMES": [
+        	"weapon",
+        	"Weapon"
+      	],
+      	"DESCRIPTION": "Only one of this kind can exist at a time, every weapon has its own trigger limit and trigger layer setting."
+    },{
+    	"NAMES": [
+        	"meleeweapon",
+        	"MeleeWeapon"
+      	],
+      	"DESCRIPTION": "Rebellion,Gilgamesh NL Lucifer,Yamato"
+    },{
+    	"NAMES": [
+        	"firearmsweapon",
+        	"FirearmsWeapon"
+      	],
+      	"DESCRIPTION": "Ebony&Ivory NL Pandora,Coyote-A"
+    },{
+    	"NAMES": [
+        	"calamity",
+        	"Calamity"
+      	],
+      	"DESCRIPTION": "Energy used when you use powerful Pandora attack, gain ShowTime using Firearms attack cards with 10% chance for every stack of Calamity, 9 at most.
+"
+    },{
+    	"NAMES": [
+        	"stun",
+        	"Stun"
+      	],
+      	"DESCRIPTION": "Make enemy incapable of action, non superposition."
+    },{
+    	"NAMES": [
+        	"demonreform",
+        	"Demonreform"
+      	],
+      	"DESCRIPTION": "Gain Devil Trigger or strengthen DevilTrigger shortly."
+    },{
+    	"NAMES": [
+        	"stylecard",
+        	"StyleCard"
+      	],
+      	"DESCRIPTION": "Sword Master,Gunslinger NL Royal Guard,Trickster NL Dark Slayer"
+    }
+    
+
+  ]
+}

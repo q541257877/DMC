@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="java"/>
+	<classpathentry kind="src" path="resources"/>
+	<classpathentry kind="lib" path="E:/杀戮尖塔MOD/BaseMod.jar"/>
+	<classpathentry kind="lib" path="E:/杀戮尖塔MOD/desktop-1.0.jar"/>
+	<classpathentry kind="lib" path="E:/杀戮尖塔MOD/ModTheSpire.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

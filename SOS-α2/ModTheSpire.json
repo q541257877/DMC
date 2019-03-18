@@ -1,0 +1,14 @@
+{
+  "modid": "SOS_Dante",
+  "name": "SOS（斯巴达之子）",
+  "author_list": [
+    "树"
+  ],
+  "description": "Adds Dante from DMC4 a new playable character.",
+  "dependencies": [
+    "basemod"
+  ],
+  "version": "0.2.0",
+  "sts_version": "01-03-2019",
+   "update_json": ""
+}

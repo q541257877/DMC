@@ -1,0 +1,542 @@
+{
+  "Attack_a":{
+    "NAME": "近战攻击A",
+    "DESCRIPTION": " 近战系 对1名敌人 !D 点伤害,获得 !M 层 表演时间 （根据装备不同的 近战武器 获得特殊效果）",
+    "EXTENDED_DESCRIPTION":[
+		"对1名敌人 !D 点 真实伤害 ,获得 !M 层 表演时间 ,给予 !M 层 次元裂缝 ",
+       	" 近战系 对1名敌人 !D 点伤害,获得2层 表演时间 ",
+       	"对1名敌人 !D 点伤害,获得 !M 层 表演时间 , !M 层 临时力量 ",
+       	" 近战系 对1名敌人 !D 点伤害,获得 !M 层 表演时间 ,给予双方2层 无尽剑 "
+    ]
+  },
+  "Attack_b":{
+    "NAME": "近战攻击B",
+    "DESCRIPTION": " 近战系 对所有敌人造成 !D 点伤害，获得 !M 层 表演时间 （根据装备不同的 近战武器 获得特殊效果）",
+    "EXTENDED_DESCRIPTION":[
+		"对所有敌人 !D 点 真实伤害 ,获得 !M 层 表演时间 ,给予3层 次元裂缝 ",
+       	" 近战系 对所有敌人 !D 点伤害,获得4层 表演时间 ",
+       	" 近战系 对所有敌人 !D 点伤害,获得3层 表演时间 ",
+       	"对所有敌人 !D 点伤害,获得 !M 层 表演时间 ,2层 临时力量 ,给予1层 易伤 ",
+       	" 近战系 对所有敌人 !D 点伤害,获得 !M 层 表演时间 ,给予2层 无尽剑 "
+    ]
+  },
+  "Defend_Dante":{
+    "NAME": "格挡",
+    "DESCRIPTION": "获得 !B 点格挡"
+  },
+  "Provocation":{
+    "NAME": "挑衅",
+    "DESCRIPTION": "获得 !M 层 表演时间 ,摸一张牌,自己获得一层 易伤 "
+  },
+  "Shoot":{
+    "NAME": "射击",
+    "DESCRIPTION": " 枪械系 对1名敌人造成6点 固定伤害 （根据装备不同的 枪械武器 获得特殊效果）",
+    "EXTENDED_DESCRIPTION":[
+		" 枪械系 对1名敌人造成9点 固定伤害 ",
+       	" 枪械系 对1名敌人造成6点 固定伤害 ,同时随机对指定敌人外的1-2名敌人造成相同伤害, 表演时间 +1",
+       	" 枪械系 对1名敌人造成6点 固定伤害 2次"
+    ]
+  },
+  "Airhike":{
+    "NAME": "二段跳",
+    "DESCRIPTION": "将一张手牌放入抽牌堆顶部，将一张弃牌堆内的技能牌加入手牌 ",
+    "EXTENDED_DESCRIPTION":[
+           "我的弃牌堆中没有技能牌！"
+    ]
+  },
+    "BeastUppercut":{
+    "NAME": "上勾拳",
+    "DESCRIPTION": "对1名敌人造成 !D 点伤害,获得2点 临时力量 ",
+    "UPGRADE_DESCRIPTION": "对1名敌人造成 !D 点伤害,获得2点 临时力量 , 表演时间 + !M ",
+    "EXTENDED_DESCRIPTION":[
+           "相关武器",
+           "装备 #y吉尔伽美什 时获得 #r2 层 表演时间 ,造成双倍伤害"
+    ]
+  },
+    "Chargeshoot":{
+    "NAME": "蓄力射击",
+    "DESCRIPTION": " 枪械系 对1名敌人造成 9点 固定伤害 ,每有1层 表演时间 +3伤害",
+    "EXTENDED_DESCRIPTION":[
+           "相关武器",
+           "装备 #y黑檀木&白象牙 时伤害+ #r3 "
+    ]
+  },
+    "Chargeshoot2":{
+    "NAME": "蓄力射击",
+    "DESCRIPTION": " 枪械系 对所有敌人造成5-9点 固定伤害 ,每有1层 表演时间 +2伤害",
+    "EXTENDED_DESCRIPTION":[
+           "相关武器",
+           "装备 #y野狼-A 时表演时间+ #b1 "
+    ]
+  },
+    "Dash1":{
+    "NAME": "冲刺",
+    "DESCRIPTION": "丢弃所有手牌，抽取与弃牌数相同张数的牌",
+    "UPGRADE_DESCRIPTION": "丢弃所有手牌，抽取弃牌数+1张牌"
+  },
+    "Dash2":{
+    "NAME": "滑步",
+    "DESCRIPTION": "获得 !B 点格挡, 表演时间 + !M "
+  },
+    "Doubleshoot":{
+    "NAME": "双向射击",
+    "DESCRIPTION": " 枪械系 对随机敌人造成3点 固定伤害 3次，每有2层 表演时间 段数+1",
+    "EXTENDED_DESCRIPTION":[
+           "相关武器",
+           "装备 #y黑檀木&白象牙 时伤害+ #r3 "
+    ]
+  },
+    "EbonyIvory":{
+    "NAME": "黑檀木&白象牙",
+    "DESCRIPTION": " 武器 ,加强相关 枪械系 攻击卡牌，并在 枪神风格 状态下获得特殊效果"
+  },
+    "Fullhouse":{
+    "NAME": "星落",
+    "DESCRIPTION": "消耗2层 表演时间 对单个敌人造成 !D 点伤害，将1张二段跳加入手牌",
+    "EXTENDED_DESCRIPTION":[
+           "相关武器",
+           "装备 #y吉尔伽美什 时获得表演时间层数相同的 临时力量 "
+    ]
+  },
+    "GilgameshcomboA":{
+    "NAME": "吉尔伽美什连击A",
+    "DESCRIPTION": "消耗1层 表演时间 ,对单个敌人造成 !D 点伤害两次",
+    "UPGRADE_DESCRIPTION": "消耗1层 表演时间 ,对单个敌人造成 !D 点伤害两次, 表演时间 +2",
+    "EXTENDED_DESCRIPTION":[
+           "相关武器",
+           "装备 #y吉尔伽美什 时获得 #r2 层 临时力量 ",
+           "表演时间层数不足"
+    ]
+  },
+    "Hightime":{
+    "NAME": "上挑",
+    "DESCRIPTION": "从抽牌堆中选择一张攻击牌放入你的手牌",
+    "EXTENDED_DESCRIPTION":[
+           "相关武器",
+           "装备 #y叛逆大剑 时获得 #b1 层表演时间",
+           "你的抽牌堆中没有攻击卡"
+    ]
+  },
+    "Kick13":{
+    "NAME": "Kick13",
+    "DESCRIPTION": "消耗2层 表演时间 对1名敌人造成 !D 点伤害8次, 表演时间 + !M , 消耗 ",
+    "EXTENDED_DESCRIPTION":[
+           "相关武器",
+           "装备 #y吉尔伽美什 时获得 #r2 层 临时力量 ",
+           "表演时间层数不足"
+    ]
+  },
+    "LucifercomboA":{
+    "NAME": "路西法连击A",
+    "DESCRIPTION": " 近战系 对单个敌人造成 !D 点伤害两次，给予双方各2层 无尽剑 ",
+    "UPGRADE_DESCRIPTION": " 近战系 对单个敌人造成 !D 点伤害两次，给予敌方2层 无尽剑 ，自身3层"
+  },
+    "LucifercomboB":{
+    "NAME": "路西法连击B",
+    "DESCRIPTION": " 近战系 对单个敌人造成 !D 点伤害，给予敌方3层 无尽剑 ，自身2层",
+    "UPGRADE_DESCRIPTION": " 近战系 对单个敌人造成 !D 点伤害，给予敌方4层 无尽剑 ，自身3层"
+  },
+    "LucifercomboC":{
+    "NAME": "路西法连击C",
+    "DESCRIPTION": " 近战系 对单个敌人造成 !D 点伤害，给予敌方与 表演时间 层数相同的 无尽剑 ",
+    "UPGRADE_DESCRIPTION": " 近战系 对单个敌人造成 !D 点伤害，给予双方与 表演时间 层数相同的 无尽剑 "
+  },
+    "Millionkick":{
+    "NAME": "百裂脚",
+    "DESCRIPTION": "消耗2层 表演时间 对随机敌人造成 !D 点伤害6次, 表演时间 + !M , 消耗 ",
+    "EXTENDED_DESCRIPTION":[
+           "相关武器",
+           "装备 #y吉尔伽美什 时获得表演时间 #r2 倍的 临时力量 ",
+           "表演时间层数不足"
+    ]
+  },
+    "Millionstab":{
+    "NAME": "百烈刺",
+    "DESCRIPTION": " 近战系 对1名敌人造成 !D 点伤害2次, 表演时间 + !M ",
+    "EXTENDED_DESCRIPTION":[
+           "相关武器",
+           "装备 #y叛逆大剑 时每有 #b3 层表演时间+ #r1 段伤害"
+    ]
+  },
+    "Rebellion":{
+    "NAME": "叛逆大剑",
+    "DESCRIPTION": " 武器 ,百烈刺基础伤害+2,使用相关攻击牌时获得特殊效果,在 剑圣风格 状态下获得特殊效果",
+    "UPGRADE_DESCRIPTION": " 武器 ,百烈刺基础伤害+2,使用相关攻击牌时获得特殊效果,在 剑圣风格 状态下获得特殊效果, 力量 +2"
+  },
+    "Redorb":{
+    "NAME": "红魂收集",
+    "DESCRIPTION": "标记1名敌人,击杀后获得随机1-50金币, 消耗 ",
+    "UPGRADE_DESCRIPTION": "标记1名敌人,击杀后获得随机1-50金币, 固有 "
+  },
+    "Straight":{
+    "NAME": "冲拳",
+    "DESCRIPTION": "对1名敌人造成 !D 点伤害,获得 !B 点格挡",
+    "UPGRADE_DESCRIPTION": "对1名敌人造成 !D 点伤害,获得 !B 点格挡, 表演时间 + !M ",
+    "EXTENDED_DESCRIPTION":[
+           "相关武器",
+           "装备 #y吉尔伽美什 时获得 #r1 层 临时力量 ,造成双倍伤害"
+    ]
+  },
+    "VitalstarS":{
+    "NAME": "生命之星（小）",
+    "DESCRIPTION": "消耗15金币，恢复5点生命, 消耗 ",
+    "EXTENDED_DESCRIPTION":[
+           "你没有足够的钱！"
+    ]
+  },
+    "Weaponchange":{
+    "NAME": "武器切换",
+    "DESCRIPTION": "从抽牌堆中选择一张能力牌放入你的手牌并让其在本回合内耗能为0, 消耗 ",
+    "UPGRADE_DESCRIPTION": "从抽牌堆中选择一张能力牌放入你的手牌并让其在本回合内耗能为0, 消耗 , 固有 ",
+    "EXTENDED_DESCRIPTION":[
+           "我的抽牌堆中没有能力牌！"
+    ]
+  },
+    "Weaponupgrade":{
+    "NAME": "技能分配",
+    "DESCRIPTION": "消耗10金币，选择手牌中的1张牌在本场战斗中升级 ",
+    "EXTENDED_DESCRIPTION":[
+           "你没有足够的钱！"
+    ]
+  },
+    "Airtrick":{
+    "NAME": "瞬移",
+    "DESCRIPTION": "丢弃所有手牌，获得弃牌数+1的 表演时间 ,消耗",
+    "UPGRADE_DESCRIPTION": "丢弃所有手牌，获得弃牌数+2的 表演时间 ,消耗"
+  },
+    "Blueorb":{
+    "NAME": "蓝魂",
+    "DESCRIPTION": "消耗100金币，生命上限+10， 消耗 ",
+    "EXTENDED_DESCRIPTION":[
+           "你没有足够的钱！"
+    ]
+  },
+    "Darkslayer":{
+    "NAME": "暗黑杀手",
+    "DESCRIPTION": " 风格 ，将一张 阎魔刀 加入手牌并让其在本回合内消耗为0， 消耗 ",
+    "UPGRADE_DESCRIPTION": " 风格 ，将一张 阎魔刀 加入手牌并让其在本回合内消耗为0"
+  },
+    "Demonreform":{
+    "NAME": "魔人化",
+    "DESCRIPTION": "进入 魔人状态 !M 回合, 消耗 ",
+    "EXTENDED_DESCRIPTION":[
+          "你已在 #r魔人 状态中，无法使用"
+    ]
+  },
+    "DevilstarL":{
+    "NAME": "恶魔之星（大）",
+    "DESCRIPTION": "消耗60金币， 表演时间 +6， 消耗 ",
+    "EXTENDED_DESCRIPTION":[
+           "你没有足够的钱！"
+    ]
+  },
+    "Enemystep":{
+    "NAME": "踏敌",
+    "DESCRIPTION": "如果敌人的意图是攻击，将其 力量 下降10，持续1回合",
+    "UPGRADE_DESCRIPTION": "如果敌人的意图是攻击，将其 力量 下降10，持续1回合，同时自己获得2点 临时力量 "
+  },
+    "Goldorb":{
+    "NAME": "黄魂",
+    "DESCRIPTION": "消耗300金币，在本场战斗中死亡的话，免除死亡并回复50%生命一次， 消耗 ",
+    "EXTENDED_DESCRIPTION":[
+           "你没有足够的钱！"
+    ]
+  },
+    "Purpleorb":{
+    "NAME": "紫魂",
+    "DESCRIPTION": "消耗150金币，表演时间 +4，在本局游戏中每回合开始 表演时间 +1（最高+4）， 消耗 ",
+    "EXTENDED_DESCRIPTION":[
+           "你没有足够的钱！"
+    ]
+  },
+    "Royalguard":{
+    "NAME": "皇家护卫",
+    "DESCRIPTION": " 风格 ,获得1回合 完美防御  ",
+    "UPGRADE_DESCRIPTION": " 风格 ,获得1回合 完美防御 ,完美防御效果增强，将1张 魔人铠甲 加入手牌"
+  },
+    "Splesh":{
+    "NAME": "路西法空扎",
+    "DESCRIPTION": " 近战系 消耗自身4层 无尽剑 和所有 表演时间 ,对所有敌人造成 !D 伤害, 消耗 ",
+    "UPGRADE_DESCRIPTION": " 近战系 消耗自身4层 无尽剑 和所有 表演时间 ,对所有敌人造成 !D 伤害",
+    "EXTENDED_DESCRIPTION":[
+           "相关武器",
+           "装备 #y路西法 时敌方获得 表演时间  #r3 倍的 无尽剑 "
+    ]
+  },
+    "Stylechange":{
+    "NAME": "风格切换",
+    "DESCRIPTION": "将一张随机 风格卡牌 加入手牌并让其在本回合耗能变为0",
+    "UPGRADE_DESCRIPTION": "将一张随机 风格卡牌 加入手牌并让其在本回合耗能变为0,同时从抽牌堆选1张牌加入手牌, 固有 "
+  },
+    "Swordcombo":{
+    "NAME": "叛逆剑舞",
+    "DESCRIPTION": " 近战系 对单个敌人造成 !D 点伤害5次， 表演时间 + !M ",
+    "EXTENDED_DESCRIPTION":[
+           "相关武器",
+           "装备 #y叛逆大剑 时多获得 #b1 层 表演时间 "
+    ]
+  },
+    "Trickster":{
+    "NAME": "骗术师",
+    "DESCRIPTION": " 风格 ,选择两张卡在其打出之前耗能为0，将一张 空中之星 加入手牌"
+  },
+    "VitalstarL":{
+    "NAME": "生命之星（大）",
+    "DESCRIPTION": "消耗50金币，恢复20点生命， 消耗 ",
+    "EXTENDED_DESCRIPTION":[
+           "你没有足够的钱！"
+    ]
+  },
+    "Weaponreturn":{
+    "NAME": "武器返还",
+    "DESCRIPTION": "身上拥有的 武器 能力移除时，返还一张未被升级过的同名 武器 牌进入弃牌堆(不包括阎魔刀)， 消耗 ",
+    "UPGRADE_DESCRIPTION": "身上拥有的 武器 能力移除时，返还一张升级过的同名 武器 牌进入弃牌堆(不包括阎魔刀)， 消耗 "
+  },
+  	"Airhike2":{
+    "NAME": "二段跳",
+    "DESCRIPTION": "将一张手牌放入抽牌堆顶部，将一张弃牌堆内的技能牌加入手牌， 消耗 ",
+    "UPGRADE_DESCRIPTION": "",
+    "EXTENDED_DESCRIPTION":[
+           "我的弃牌堆中没有技能牌！"
+    ]
+  },
+    "Climax":{
+    "NAME": "剑盾",
+    "DESCRIPTION": "消耗自身所有 无尽剑 ，每层 无尽剑 对随机敌人造成 !D 伤害， 消耗  , 虚无 ",
+    "EXTENDED_DESCRIPTION":[
+           "你没有 #r无尽剑 "
+    ]
+  },
+    "Dreadnaught":{
+    "NAME": "魔人铠甲",
+    "DESCRIPTION": "消耗所有 怒气 ，每有一层 怒气 +9点 格挡 ， 消耗  ",
+    "EXTENDED_DESCRIPTION":[
+      " #r怒气 层数不足"
+    ]
+  },
+    "Fireworks":{
+    "NAME": "烟火",
+    "DESCRIPTION": " 枪械系 对所有敌人造成10-20点 固定伤害 4次 , 表演时间 + !M , 消耗 , 虚无 "
+  },
+    "PF013":{
+    "NAME": "PF013:泛滥",
+    "DESCRIPTION": " 枪械系 对1名敌人造成6点 固定伤害 2次 , 灾厄 +1,消耗 , 虚无 "
+  },
+    "PF262":{
+    "NAME": "PF262:嫉妒",
+    "DESCRIPTION": " 枪械系 随机对敌人造成相当于 表演时间 层数次的3点 固定伤害 , 灾厄 +2, 消耗 , 虚无 "
+  },
+    "PF398":{
+    "NAME": "PF398:复仇",
+    "DESCRIPTION": " 枪械系 消耗3层 灾厄 对所有敌人造成 表演时间 4倍的 固定伤害 ,并给予3层 虚弱 , 消耗 , 虚无 ",
+    "EXTENDED_DESCRIPTION":[
+      " #r灾厄 层数不足"
+    ]
+  },
+    "PF594":{
+    "NAME": "PF594:争执",
+   	"DESCRIPTION": " 枪械系 消耗5层 灾厄 对所有敌人造成9点 固定伤害4次 ,每有1层 表演时间 段数+1, 消耗 , 虚无 ",
+    "EXTENDED_DESCRIPTION":[
+      " #r灾厄 层数不足"
+    ]
+  },
+    "PF666":{
+    "NAME": "PF666:预兆",
+   	"DESCRIPTION": " 枪械系 消耗所有 灾厄 破除所有敌人的所有格挡值 ,并让其 眩晕  一回合,造成 表演时间 3倍的 固定伤害 , 消耗 , 虚无 ",
+    "EXTENDED_DESCRIPTION":[
+      " #r灾厄 层数不足"
+    ]
+  },
+    "PINUP":{
+    "NAME": "PIN-UP",
+    "DESCRIPTION": "自身获得 表演时间 层数3倍的 无尽剑 , 消耗 , 虚无 "
+  },
+    "Rainstorm":{
+    "NAME": "暴风雨",
+    "DESCRIPTION": " 枪械系 随机对敌人造成3倍于 表演时间 层数次的5点 固定伤害 , 表演时间 +2 , 消耗 , 虚无 "
+  },
+    "Rebellionsword":{
+    "NAME": "剑气",
+    "DESCRIPTION": " 近战系 对所有敌人造成 表演时间 层数3倍的3次伤害， 表演时间 + !M ， 消耗 , 虚无 "
+  },
+    "Release":{
+    "NAME": "怒气释放",
+    "DESCRIPTION": "消耗所有 怒气 ,造成3倍 格挡 的伤害, 消耗 , 虚无 ",
+    "EXTENDED_DESCRIPTION":[
+           "怒气加强",
+           "消耗的怒气层数为3或以上时变化为对单个敌人造成其现有血量 #r30% 的伤害",
+      " #r怒气 层数不足"
+    ]
+  },
+    "Risingdragon":{
+    "NAME": "真·升龙拳",
+    "DESCRIPTION": " 魔人化 专用,消耗所有 表演时间 层数对1名敌人造成每层18点伤害,获得10倍 力量 加成, 消耗 , 虚无 ",
+    "EXTENDED_DESCRIPTION":[
+           "你不在 #r魔人 状态中，无法使用",
+      " #r表演时间 层数不足，无法使用"
+    ]
+  },
+    "Royalrelease":{
+    "NAME": "一闪",
+    "DESCRIPTION": "消耗所有 怒气 ,对单个敌人造成5倍 格挡 的伤害， 消耗 , 虚无 ",
+    "EXTENDED_DESCRIPTION":[
+           "怒气加强",
+           "消耗的怒气层数为6或以上时变化为对单个敌人造成其血量上限 #r50% 的伤害",
+      " #r怒气 层数不足"
+    ]
+  },
+    "Sheathing":{
+    "NAME": "入鞘",
+    "DESCRIPTION": "消耗一名敌人身上所有 次元裂缝 ，每1层造成固定3点 真实伤害 ，累计每3层回复 [R] ， 表演时间 +1， 消耗 "
+  },
+    "Skystar":{
+    "NAME": "空中之星",
+    "DESCRIPTION": "获得1回合 空中之星 ， 消耗 "
+  },
+    "Slashdimension1":{
+    "NAME": "次元斩:一式",
+    "DESCRIPTION": "对所有敌人造成 !D 点 真实伤害 3次 , 3层 易伤 ,3层 次元裂缝  , 表演时间 +1, 消耗 , 虚无 "
+  },
+    "Slashdimension2":{
+    "NAME": "次元斩:二式",
+    "DESCRIPTION": "对单个敌人造成 !D 点 真实伤害 5次,5层 次元裂缝  , 表演时间 +2, 消耗 , 虚无 "
+  },
+    "Yamato":{
+    "NAME": "阎魔刀",
+    "DESCRIPTION": " 武器 ,持续1回合,给予 阎魔刀 装备状态，并给予1张随机无色 近战 攻击卡"
+  },
+    "CoyoteA":{
+    "NAME": "野狼-A",
+    "DESCRIPTION": " 武器 ,加强相关 枪械系 攻击卡,并在 枪神风格 状态下获得特殊效果",
+    "UPGRADE_DESCRIPTION": " 武器 ,加强相关 枪械系 攻击卡,并在 枪神风格 状态下获得特殊效果, 固有 "
+  },
+    "DevilstarS":{
+    "NAME": "恶魔之星（小）",
+    "DESCRIPTION": "消耗40金币， 表演时间 +3， 消耗 ",
+    "EXTENDED_DESCRIPTION":[
+           "你没有足够的钱！"
+    ]
+  },
+    "DT":{
+    "NAME": "瞬时魔化",
+    "DESCRIPTION": "获得 表演时间 2倍的 力量 ,使用1张攻击卡后力量效果消失, 消耗 ",
+    "EXTENDED_DESCRIPTION":[
+           "你已在 #r魔人 状态中，无法使用"
+    ]
+  },
+    "Ecstasy":{
+    "NAME": "玫瑰",
+    "DESCRIPTION": "消耗1名敌方所有 无尽剑 ，每层对所有敌人造成 !D 点伤害",
+    "EXTENDED_DESCRIPTION":[
+           "对方没有 #r无尽剑 "
+    ]
+  },
+    "Gilgamesh":{
+    "NAME": "吉尔伽美什",
+    "DESCRIPTION": " 武器 ,名字带有拳的攻击卡牌伤害翻倍,相关卡牌加强,+ !M  力量 ,在 剑圣风格 状态下获得特殊效果"
+  },
+    "Greenorb":{
+    "NAME": "绿魂收集",
+    "DESCRIPTION": "标记1名敌人,击杀后随机恢复1-10点生命, 消耗 ",
+    "UPGRADE_DESCRIPTION": "标记1名敌人,击杀后随机恢复1-10点生命"
+  },
+    "Gunslinger":{
+    "NAME": "枪神",
+    "DESCRIPTION": " 风格 ,本回合内的非无色 枪械系 攻击卡牌消耗降为0,每打出一张枪械系卡牌 表演时间 +1, 灾厄 +1"
+  },
+    "Gunstinger":{
+    "NAME": "穿刺射击",
+    "DESCRIPTION": " 枪械系 对1名敌人10-20点无视护甲的 固定伤害 ",
+    "EXTENDED_DESCRIPTION":[
+           "相关武器",
+           "装备 #y野狼-A 时表演时间+ #b1 "
+    ]
+  },
+    "Holywater":{
+    "NAME": "圣水",
+    "DESCRIPTION": "消耗80金币，对所有敌人造成20点无视护甲的 固定伤害 ， 消耗 ",
+    "EXTENDED_DESCRIPTION":[
+           "你没有足够的钱！"
+    ]
+  },
+    "Honeycombofire":{
+    "NAME": "十倍弹速",
+    "DESCRIPTION": "本回合内，你打出的 枪械系 攻击牌，将有20%几率会打出两次， 消耗 ",
+    "UPGRADE_DESCRIPTION": "本回合内，你打出的 枪械系 攻击牌，将有20%几率会打出两次",
+    "EXTENDED_DESCRIPTION":[
+           "相关武器",
+           "装备 #y黑檀木&白象牙 时触发几率上升至50%"
+    ]
+  },
+    "Lucifer":{
+    "NAME": "路西法",
+    "DESCRIPTION": " 武器 ,无尽剑相关卡牌打出时，每张增加1层 表演时间 ， 剑圣风格 下将获得特殊效果",
+    "UPGRADE_DESCRIPTION": " 武器 ,无尽剑相关卡牌打出时，每张增加1层 表演时间 ， 剑圣风格 下获得的特殊效果加强"
+  },
+    "LucifercomboD":{
+    "NAME": "路西法连击D",
+    "DESCRIPTION": " 近战系 消耗1名敌人的所有 无尽剑 ，每层 无尽剑 对该敌人造成 !D 伤害",
+    "EXTENDED_DESCRIPTION":[
+           "相关武器",
+           "装备 #y路西法 时自身获得 #b4 层 无尽剑 "
+    ]
+  },
+    "Pandora":{
+    "NAME": "潘多拉",
+    "DESCRIPTION": " 武器 ,强化 枪械系 卡牌，并在每回合开始将1张随机无色 枪械系 攻击卡加入手牌, 枪神风格 状态下获得特殊效果",
+    "UPGRADE_DESCRIPTION": " 武器,强化 枪械系 卡牌，并在每回合开始将2张随机无色 枪械系 攻击卡加入手牌, 枪神风格 状态下获得特殊效果加强"
+  },
+    "Royaldefend":{
+    "NAME": "皇家防御",
+    "DESCRIPTION": "获得 !B 点格挡, 怒气 + !M , 消耗 "
+  },
+    "Shock":{
+    "NAME": "裂地猛击",
+    "DESCRIPTION": "消耗2层表演时间,对所有敌人造成 !D 伤害,2层易伤,30%几率造成眩晕",
+    "UPGRADE_DESCRIPTION": "消耗2层表演时间,对所有敌人造成 !D 伤害,2层易伤,30%几率造成眩晕, 表演时间 +1",
+    "EXTENDED_DESCRIPTION":[
+           "相关状态",
+           "装备 #y吉尔伽美什 时获得 #b1 层表演时间 NL  #r魔人 状态中眩晕几率上升至60%",
+           "表演时间层数不足"
+    ]
+  },
+    "SSScard":{
+    "NAME": "SmokinSickStyle!!!",
+    "DESCRIPTION": "本回合每打出1次攻击卡,该卡可获得的 表演时间 +1, 消耗 ,（现可获得 !M 层 表演时间 ）",
+    "UPGRADE_DESCRIPTION": "本回合每打出1次攻击卡,该卡可获得的 表演时间 +1,最终获得的 表演时间 +1, 消耗 ,（现可获得 !M 层 表演时间 ）"
+  },
+    "Stinger":{
+    "NAME": "突刺剑",
+    "DESCRIPTION": " 近战系 对1名敌人造成 !D 点伤害，将一张百烈刺加入手牌, 消耗  ",
+    "EXTENDED_DESCRIPTION":[
+           "相关武器",
+           "装备 #y叛逆大剑 时加入手牌的百烈刺本回合耗能为0"
+    ]
+  },
+    "Swordmaster":{
+    "NAME": "剑圣",
+    "DESCRIPTION": " 风格 ,本回合内，你打出的下 !M 张 近战系 攻击牌会打出两次。同时该状态下触发风格评分系统将会将 临时力量 转化为 力量 "
+  },
+    "Unrisingdragon":{
+    "NAME": "升龙拳",
+    "DESCRIPTION": "对1名敌人造成每层 表演时间 6点伤害",
+    "EXTENDED_DESCRIPTION":[
+           "相关武器",
+           "装备 #y吉尔伽美什 时消耗至少 #b2 层 表演时间 获得 #r5 倍力量加成,造成双倍伤害",
+      " #r表演时间 层数不足，无法使用"
+    ]
+  },
+    "VitalstarM":{
+    "NAME": "生命之星（中）",
+    "DESCRIPTION": "消耗30金币，恢复10点生命， 消耗 ",
+    "EXTENDED_DESCRIPTION":[
+           "你没有足够的钱！"
+    ]
+  },
+    "Whiteorb":{
+    "NAME": "白魂收集",
+    "DESCRIPTION": "标记1名敌人,击杀后获得随机1-3 [R] , 消耗 ",
+    "UPGRADE_DESCRIPTION": "标记1名敌人,击杀后获得随机1-3 [R] "
+  }
+  
+}
