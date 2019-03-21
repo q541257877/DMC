@@ -1,17 +1,17 @@
 {
   "Attack_a":{
     "NAME": "Attack-I",
-    "DESCRIPTION": " Melee ,deal !D! damage, gain !M! ShowTime .( gain special effect based on the MeleeWeapon equipped)",
+    "DESCRIPTION": " Melee, deal !D! damage, gain !M! Show Time (gain a bonus effect based on the Melee Weapon equipped)",
     "EXTENDED_DESCRIPTION":[
-		"Deal !D! TrueDamage , gain !M! ShowTime .apply !M! DimensionFissure .",
+		"Deal !D! TrueDamage , gain !M! Show Time .apply !M! DimensionFissure .",
        	" Melee ,deal !D! damage,gain 2 ShowTime .",
        	"Deal !D! damage,gain !M! ShowTime ,gain !M! Flex .",
-       	" Melee ,deal !D! damage,gain !M! ShowTime ,apply 2 EndlessSword to you and your enemy"
+       	" Melee ,deal !D! damage,gain !M! ShowTime, apply 2 Endless Sword to you and your enemy"
     ]
   },
   "Attack_b":{
     "NAME": "Attack-II",
-    "DESCRIPTION": " Melee ,deal !D! damage to all enemy, gain !M! ShowTime .( gain special effect based on the MeleeWeapon equipped)",
+    "DESCRIPTION": " Melee, deal !D! damage to all enemies, gain !M! Show Time (gain a bonus effect based on the Melee Weapon equipped)",
     "EXTENDED_DESCRIPTION":[
     	"Deal !D! TrueDamage to all enemy, gain !M! ShowTime ,apply 3 DimensionFissure .",
        	" Melee ,deal !D! damage to all enemy, gain 4 ShowTime .",
@@ -26,11 +26,11 @@
   },
   "Provocation":{
     "NAME": "Provocation",
-    "DESCRIPTION": "gain !M! ShowTime , draw 1 card, apply 1 Vulnerable to you."
+    "DESCRIPTION": "gain !M! Showtime, draw 1 card, gain 1 Vulnerable."
   },
   "Shoot":{
     "NAME": "Shoot",
-    "DESCRIPTION": " Firearms , deal 6 FixedDamage ( gain special effect based on the FirearmsWeapon equipped)",
+    "DESCRIPTION": " Firearms , deal 6 FixedDamage (gain a bonus effect based on the Firearms Weapon equipped)",
     "EXTENDED_DESCRIPTION":[
 		" Firearms ,deal 6 FixedDamage .",
        	" Firearms ,deal 6 FixedDamage ,deal the same damage to random 1-2 enemy except the enemy designated, gain 1 ShowTime ",
@@ -46,7 +46,7 @@
   },
     "BeastUppercut":{
     "NAME": "Beast Uppercut",
-    "DESCRIPTION": "Deal !D! damage,gain 2 Flex ",
+    "DESCRIPTION": "Deal !D! damage, gain 2 Flex",
     "UPGRADE_DESCRIPTION": "Deal !D! damage,gain 2 Flex , gain !M! ShowTime ",
     "EXTENDED_DESCRIPTION":[
     "Related Weapon",
