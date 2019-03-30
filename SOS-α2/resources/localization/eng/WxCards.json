@@ -55,7 +55,7 @@
   },
     "Chargeshoot":{
     "NAME": "Charge Shoot-I",
-    "DESCRIPTION": " Firearms ,deal 9 FixedDamage ,deal additional 3 damage for each stack of ShowTime on you.",
+    "DESCRIPTION": " Firearms ,deal 9 FixedDamage , deal an additional 3 damage for each stack of ShowTime you have.",
     "EXTENDED_DESCRIPTION":[
 	"Related Weapon",
            "deal additional #r3 damage when equipping #yEbony&Ivory "
@@ -63,7 +63,7 @@
   },
     "Chargeshoot2":{
     "NAME": "Charge Shoot-II",
-    "DESCRIPTION": " Firearms , deal 5-9 FixedDamage to all enemy,deal additional 2 damage for each stack of ShowTime on you.",
+    "DESCRIPTION": " Firearms , deal 5-9 FixedDamage to all enemy,deal additional 2 damage for each stack of ShowTime you have.",
     "EXTENDED_DESCRIPTION":[
 	"Related Weapon",
            "gain #b1 ShowTime when equipping #yCoyote-A "
@@ -518,16 +518,16 @@
   },
     "Unrisingdragon":{
     "NAME": "Rising Dragon",
-    "DESCRIPTION": "Deal damage equal to 6 times of ShowTime on you.",
+    "DESCRIPTION": "Deal damage equal to 6 times the number of stacks of ShowTime you have.",
     "EXTENDED_DESCRIPTION":[
            "Related Weapon",
-           "Lose at least #b2 ShowTime, strength affects this card 5 times, deal double damage when equipping #yGilgamesh .",
+           "Lose at least #b2 Show Time, Strength affects this card 5 times, deal double damage while #yGilgamesh is equipped.",
       "Not enough #rShowTime ."
     ]
   },
     "VitalstarM":{
     "NAME": "Vital Star-M",
-    "DESCRIPTION": "Lose 30 coins,heal 10 Hp, Exhaust.",
+    "DESCRIPTION": "Spend 30 coins, Heal 10 HP, Exhaust",
     "EXTENDED_DESCRIPTION":[
            "Not enough coins!"
     ]
