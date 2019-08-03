@@ -3,27 +3,28 @@
     {
     	"NAMES": [
         	"showtime",
-        	"ShowTime"
+        	"Showtime"
       	],
-      	"DESCRIPTION": "Removed at the end of your turn, gain block equal to the stack of Showtime removed"
+      	"DESCRIPTION": "Remove all stacks of Showtime at the end of your turn and gain that much block."
     },{
     	"NAMES": [
         	"melee",
         	"Melee"
       	],
-      	"DESCRIPTION": "Melee attack cards, can be strengthened by SwordMaster style."
+      	"DESCRIPTION": "Melee attack cards, can be empowered by Swordmaster style."
     },{
     	"NAMES": [
         	"firearms",
         	"Firearms"
       	],
-      	"DESCRIPTION": "Firearms attack cards, can be strengthened by Gunslinger style."
+      	"DESCRIPTION": "Firearms attack cards, can be empowered by Gunslinger style."
     },{
     	"NAMES": [
-        	"fixeddamage",
-        	"FixedDamage"
+        	"fixed damage",
+			"Fixed Damage",
+			"fixeddamage"
       	],
-      	"DESCRIPTION": "Deal damage uneffected by strength and state."
+      	"DESCRIPTION": "Deal damage unaffected by strength and state."
     },{
     	"NAMES": [
         	"flex",
@@ -33,27 +34,28 @@
     },{
     	"NAMES": [
         	"swordmaster",
-        	"SwordMaster"
+        	"Swordmaster"
       	],
-      	"DESCRIPTION": "Strength Melee attack cards, gain special effect when you have Melee weapon on you."
+      	"DESCRIPTION": "Improves Melee attack cards, gains special effect when you have Melee weapon equipped."
     },{
     	"NAMES": [
         	"gunslinger",
         	"Gunslinger"
       	],
-      	"DESCRIPTION": "Strength Firearms attack cards, gain special effect when you have Firearmsweapon on you."
+      	"DESCRIPTION": "Improves Firearms attack cards, gains special effect when you have Firearms weapon equipped."
     },{
     	"NAMES": [
-        	"deviltrigger",
-        	"DevilTrigger"
+			"deviltrigger",
+			"devil trigger",
+        	"Devil Trigger"
       	],
-      	"DESCRIPTION": "Heal 3 Hp every 3 attacks, gain 7 strength every time SSS is triggered, lose 18 strength when effect removed."
+      	"DESCRIPTION": "Heal 3 Hp every 3 attacks, gain 7 strength every time SSS is triggered, lose 18 strength when the effect is removed."
     },{
     	"NAMES": [
         	"royalguard",
-        	"RoyalGuard"
+        	"Royalguard"
       	],
-      	"DESCRIPTION": "Immune to attack by chance, gain Rage when attacked."
+      	"DESCRIPTION": "Chance to block incoming damage, gain Rage when attacked."
     },{
     	"NAMES": [
         	"dreadnaught",
@@ -77,7 +79,7 @@
         	"skystar",
         	"SkyStar"
       	],
-      	"DESCRIPTION": "Strength Style、Showtime、Rage by entending their turns."
+      	"DESCRIPTION": "Your Style, Showtime and Rage doesn't reset at the end of your turns."
     },{
     	"NAMES": [
         	"yamato",
@@ -86,65 +88,71 @@
       	"DESCRIPTION": "Related cards deal damage that ignores Block."
     },{
     	"NAMES": [
-        	"endlesssword",
-        	"EndlessSword"
+			"endless sword",
+			"endless swords",
+        	"Endless Sword"
       	],
-      	"DESCRIPTION": "Deal damage to the attacker when attacked when you have Endlesssword on you, deal damage over time when the enemies have Endlesssword on them, 15 layers at most."
+      	"DESCRIPTION": "On you: when receiving Attack damage, deal damage to the attacker. NL On enemy: Deal damage at the end of your turn."
     },{
     	"NAMES": [
-        	"dimensionfissure",
-        	"DimensionFissure"
+			"dimensionfissure",
+			"dimension fissure",
+        	"Dimension Fissure"
       	],
-      	"DESCRIPTION": "Can trigger special effect with Sheathing, lose 1 per turn."
+      	"DESCRIPTION": "Can trigger special effect with Sheathing, lose 1 per at the end of your turn."
     },{
     	"NAMES": [
-        	"truedamage",
-        	"TrueDamage"
+			"truedamage",
+			"true damage",
+        	"True Damage"
       	],
-      	"DESCRIPTION": "Deal damage that ignores Block, will not trigger thorns."
+      	"DESCRIPTION": "Deal damage that ignores Block, will not trigger Thorns."
     },{
     	"NAMES": [
         	"weapon",
         	"Weapon"
       	],
-      	"DESCRIPTION": "Only one of this kind can exist at a time, every weapon has its own trigger limit and trigger layer setting."
+      	"DESCRIPTION": "Only one weapon can be equipped at the time, each has its own limits and triggers."
     },{
     	"NAMES": [
-        	"meleeweapon",
-        	"MeleeWeapon"
+			"meleeweapon",
+			"melee weapon",
+        	"Melee Weapon"
       	],
-      	"DESCRIPTION": "Rebellion,Gilgamesh NL Lucifer,Yamato"
+      	"DESCRIPTION": "Melee weapons include Rebellion, Gilgamesh, Lucifer and Yamato."
     },{
     	"NAMES": [
+			"firearms weapon",
         	"firearmsweapon",
-        	"FirearmsWeapon"
+			"FirearmsWeapon"
       	],
-      	"DESCRIPTION": "Ebony&Ivory NL Pandora,Coyote-A"
+      	"DESCRIPTION": "Firearms include Ebony&Ivory, Pandora and Coyote-A."
     },{
     	"NAMES": [
         	"calamity",
         	"Calamity"
       	],
-      	"DESCRIPTION": "Energy used when you use powerful Pandora attack, gain ShowTime using Firearms attack cards with 10% chance for every stack of Calamity, 9 at most.
-"
+      	"DESCRIPTION": "Energy used on powerful Pandora attacks, up to 9 stacks. 10% chance to gain Showtime using Firearms attack cards for every stack of Calamity."
     },{
     	"NAMES": [
         	"stun",
         	"Stun"
       	],
-      	"DESCRIPTION": "Make enemy incapable of action, non superposition."
+      	"DESCRIPTION": "Make enemy incapable of action."
     },{
     	"NAMES": [
         	"demonreform",
-        	"Demonreform"
+			"Demonreform",
+			"demon reform"
       	],
-      	"DESCRIPTION": "Gain Devil Trigger or strengthen DevilTrigger shortly."
+      	"DESCRIPTION": "Gain Devil Trigger or improve Devil Trigger briefly."
     },{
     	"NAMES": [
-        	"stylecard",
+			"stylecard",
+			"style card",
         	"StyleCard"
       	],
-      	"DESCRIPTION": "Sword Master,Gunslinger NL Royal Guard,Trickster NL Dark Slayer"
+      	"DESCRIPTION": "Styles include Swordmaster, Gunslinger, Royalguard, Trickster and Dark Slayer."
     }
     
 

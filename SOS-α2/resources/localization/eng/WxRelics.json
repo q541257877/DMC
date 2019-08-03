@@ -3,14 +3,14 @@
     "NAME": "Style Score System Ver.1",
     "FLAVOR": "Incomplete SSS, hotter SSS Ver.2 is waiting to be released.",
     "DESCRIPTIONS": [
-      "Lose all ShowTime when you get 7, gain 4 [R] and 6 Block, draw 5 cards then.Gain 2 ShowTime if you received no damage last turn."
+      "At 7 stacks of Showtime, reset them and gain 4 [R] and 6 Block, draw 5 cards. If you received no damage last turn, gain 2 Showtime."
     ]
   },
   "Combocheck": {
-    "NAME": "Combo System",
+    "NAME": "Showtime!",
     "FLAVOR": "More combo, less damage every hit, isn't that comon sense in fighting games?",
     "DESCRIPTIONS": [
-      "Combo plus 1 every time you play an attack card in one turn. Add 1 weapon switch at hand every 10 stack, all attack deals 1 less damage. Combo resets when you play a weapon card different from the weapon you are equipping."
+      "Gain Combo every time you play an attack card. At 10 stacks, add 1 weapon switch and all attack deals 1 less damage. Combo resets when you equip a different weapon."
     ]
   }
 }
