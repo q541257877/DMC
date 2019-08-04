@@ -54,20 +54,24 @@ public class SSSpower extends AbstractPower
 	  if(AbstractDungeon.player.hasPower("showtime")) {
 			this.power = (AbstractDungeon.player.getPower("showtime").amount);
 			if (this.power >= 7) {
-	 AbstractDungeon.actionManager.addToBottom(new GainEnergyAction(4));
-  	 flash();
-  	 //获得4点能量
-  	AbstractDungeon.actionManager.addToBottom(new DrawCardAction(AbstractDungeon.player, 5));
-  	 flash();
-  	 //摸5张牌
-  	AbstractDungeon.actionManager.addToTop(new GainBlockAction(AbstractDungeon.player, AbstractDungeon.player, 6));
-  	 flash();
-  	 //获得6点格挡
-  	AbstractDungeon.actionManager.addToBottom(new RemoveSpecificPowerAction(this.owner, this.owner, "showtime"));
-  	 //清零showtime层数
-  	x++;
-  	AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player, new SSSpower(AbstractDungeon.player, 1), 1));
-   }
+				AbstractDungeon.actionManager.addToBottom(new GainEnergyAction(4));
+				flash();
+				//获得4点能量
+				AbstractDungeon.actionManager.addToBottom(new DrawCardAction(AbstractDungeon.player, 5));
+				flash();
+				//摸5张牌
+				AbstractDungeon.actionManager.addToTop(new GainBlockAction(AbstractDungeon.player, AbstractDungeon.player, 6));
+				flash();
+				//获得6点格挡
+				AbstractDungeon.actionManager.addToBottom(new RemoveSpecificPowerAction(this.owner, this.owner, "showtime"));
+				//清零showtime层数
+				x++;
+				AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player, new SSSpower(AbstractDungeon.player, 1), 1));
+				if(this.owner.hasPower("Swordmasterpower")){
+					AbstractDungeon.actionManager.addToBottom(new RemoveSpecificPowerAction(this.owner, this.owner, "flex2"));
+					AbstractDungeon.actionManager.addToBottom(new RemoveSpecificPowerAction(this.owner, this.owner, "Flex"));
+				}
+		}
 	}
 }	
 
@@ -91,6 +95,10 @@ public class SSSpower extends AbstractPower
 			//清零临时力量层数
 			if(AbstractDungeon.player.hasPower("Swordmasterpower")) {
 				AbstractDungeon.actionManager.addToBottom(new RemoveFlex2Action(AbstractDungeon.player, AbstractDungeon.player));
+			}
+			if(this.owner.hasPower("Swordmasterpower")){
+				AbstractDungeon.actionManager.addToBottom(new RemoveSpecificPowerAction(this.owner, this.owner, "flex2"));
+				AbstractDungeon.actionManager.addToBottom(new RemoveSpecificPowerAction(this.owner, this.owner, "Flex"));
 			}
 		}
  }
