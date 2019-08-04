@@ -37,7 +37,7 @@ public class Provocation extends CustomCard{
 		AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p, p, new showtime(p, this.magicNumber), this.magicNumber));	
 		SSS.WeaponPonit +=this.magicNumber;
 		AbstractDungeon.actionManager.addToBottom(new DrawCardAction(AbstractDungeon.player, 1));
-		AbstractDungeon.actionManager.addToBottom(new com.megacrit.cardcrawl.actions.common.ApplyPowerAction(p, p, new VulnerablePower(p, 1, false), 1));
+		AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p, p, new VulnerablePower(p, 1, false), 1));
 	}
 	
 	public AbstractCard makeCopy() {

@@ -8,7 +8,7 @@
   "dependencies": [
     "basemod"
   ],
-  "version": "0.2.0",
-  "sts_version": "01-03-2019",
+  "version": "0.2.2",
+  "sts_version": "04-08-2019",
    "update_json": ""
 }

@@ -115,7 +115,6 @@ public class SSS extends CustomRelic
 	   x = 0;
    }
    
-   @Override
    public int onAttackedMonster(DamageInfo info, int damageAmount)
    {
 	  isSelect = true;

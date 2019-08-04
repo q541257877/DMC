@@ -43,8 +43,7 @@ public class Combocheck extends CustomRelic
 	  this.counter = 0;
   }
    
-  @Override
-   public int onAttackedMonster(DamageInfo info, int damageAmount)
+  public int onAttackedMonster(DamageInfo info, int damageAmount)
    {
      if ((info.owner != null) && (damageAmount > 0))
      {
