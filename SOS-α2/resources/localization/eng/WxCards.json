@@ -1,541 +1,541 @@
 {
-  "Attack_a":{
+  "Attack_a": {
     "NAME": "Attack-I",
-    "DESCRIPTION": " Melee ,deal !D! damage, gain !M! ShowTime .( gain special effect based on the MeleeWeapon equipped)",
-    "EXTENDED_DESCRIPTION":[
-		"Deal !D! TrueDamage , gain !M! ShowTime .apply !M! DimensionFissure .",
-       	" Melee ,deal !D! damage,gain 2 ShowTime .",
-       	"Deal !D! damage,gain !M! ShowTime ,gain !M! Flex .",
-       	" Melee ,deal !D! damage,gain !M! ShowTime ,apply 2 EndlessSword to you and your enemy"
+    "DESCRIPTION": "Melee NL Deal !D! damage. NL Gain !M! Showtime NL (Has special effect based on the Melee Weapon equipped.)",
+    "EXTENDED_DESCRIPTION": [
+      "Melee NL Deal !D! True Damage. NL Gain !M! Showtime. NL Apply !M! Dimension Fissure.",
+      "Melee NL Deal !D! damage. NL Gain 2 Showtime.",
+      "Melee NL Deal !D! damage. NL Gain !M! Showtime. NL Gain !M! Flex.",
+      "Melee NL Deal !D! damage. NL Gain !M! Showtime. NL Apply 2 Endless Swords to you and your enemy."
     ]
   },
-  "Attack_b":{
+  "Attack_b": {
     "NAME": "Attack-II",
-    "DESCRIPTION": " Melee ,deal !D! damage to all enemy, gain !M! ShowTime .( gain special effect based on the MeleeWeapon equipped)",
-    "EXTENDED_DESCRIPTION":[
-    	"Deal !D! TrueDamage to all enemy, gain !M! ShowTime ,apply 3 DimensionFissure .",
-       	" Melee ,deal !D! damage to all enemy, gain 4 ShowTime .",
-       	" Melee ,deal !D! damage to all enemy, gain 3 ShowTime .",
-       	"Deal !D! damage to all enemy, gain !M! ShowTime ,gain 2 Flex , apply 1 Vulnerable ",
-       	" Melee ,deal !D! damage to all enemy, gain !M! ShowTime ,apply 2 EndlessSword to you and your enemy"
+    "DESCRIPTION": "Melee NL deal !D! damage to  all enemies. NL gain !M! Showtime. NL (Has special effect based on the Melee Weapon equipped.)",
+    "EXTENDED_DESCRIPTION": [
+      "Melee NL Deal !D! True Damage to all enemies. NL Gain !M! Showtime. NL Apply 3 Dimension Fissure.",
+      "Melee NL Deal !D! damage to all enemies. NL Gain 4 Showtime.",
+      "Melee NL Deal !D! damage to all enemies. NL Gain 3 Showtime.",
+      "Melee NL Deal !D! damage to all enemies. NL Gain !M! Showtime. NL Gain 2 Flex. NL Apply 1 Vulnerable.",
+      "Melee NL deal !D! damage to all enemies. NL Gain !M! Showtime. NL Apply 2 Endless Swords to you and your enemy."
     ]
   },
-  "Defend_Dante":{
+  "Defend_Dante": {
     "NAME": "Block",
     "DESCRIPTION": "Gain !B! Block."
   },
-  "Provocation":{
+  "Provocation": {
     "NAME": "Provocation",
-    "DESCRIPTION": "gain !M! ShowTime , draw 1 card, apply 1 Vulnerable to you."
+    "DESCRIPTION": "Gain !M! Showtime. NL Draw 1 card. NL Gain 1 Vulnerable."
   },
-  "Shoot":{
+  "Shoot": {
     "NAME": "Shoot",
-    "DESCRIPTION": " Firearms , deal 6 FixedDamage ( gain special effect based on the FirearmsWeapon equipped)",
-    "EXTENDED_DESCRIPTION":[
-		" Firearms ,deal 6 FixedDamage .",
-       	" Firearms ,deal 6 FixedDamage ,deal the same damage to random 1-2 enemy except the enemy designated, gain 1 ShowTime ",
-       	" Firearms ,deal 6 FixedDamage twice."
+    "DESCRIPTION": "Firearms NL Deal 6 Fixed Damage. NL (Has special effect based on the Firearm Weapon equipped.)",
+    "EXTENDED_DESCRIPTION": [
+      "Firearms NL Deal 6 Fixed Damage.",
+      "Firearms NL Deal 6 Fixed Damage. NL Deal the same damage to random 1 or 2 other enemies. NL Gain 1 Showtime.",
+      "Firearms NL Deal 6 Fixed Damage twice."
     ]
   },
-  "Airhike":{
+  "Airhike": {
     "NAME": "Air Hike",
-    "DESCRIPTION": "Put a card from your hand on top of your draw pile, put a skill card from your discard pile into your hand.",
-    "EXTENDED_DESCRIPTION":[
-           "No skill card in my discard pile!"
+    "DESCRIPTION": "Put a card from your hand on top of your draw pile. NL Put a skill card from your discard pile into your hand.",
+    "EXTENDED_DESCRIPTION": [
+      "No skill card in the discard pile!"
     ]
   },
-    "BeastUppercut":{
+  "BeastUppercut": {
     "NAME": "Beast Uppercut",
-    "DESCRIPTION": "Deal !D! damage,gain 2 Flex ",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage,gain 2 Flex , gain !M! ShowTime ",
-    "EXTENDED_DESCRIPTION":[
-    "Related Weapon",
-           "gain #r2 ShowTime ,deal double damage when equipping #yGilgamesh "
+    "DESCRIPTION": "Deal !D! damage. NL Gain 2 Flex.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Gain 2 Flex. NL Gain !M! Showtime.",
+    "EXTENDED_DESCRIPTION": [
+      "Related Weapon",
+      "Gain #r2 Showtime. NL Deal double damage when using #yGilgamesh."
     ]
   },
-    "Chargeshoot":{
+  "Chargeshoot": {
     "NAME": "Charge Shoot-I",
-    "DESCRIPTION": " Firearms ,deal 9 FixedDamage , deal an additional 3 damage for each stack of ShowTime you have.",
-    "EXTENDED_DESCRIPTION":[
-	"Related Weapon",
-           "deal additional #r3 damage when equipping #yEbony&Ivory "
+    "DESCRIPTION": "Firearms NL Deal 9 Fixed Damage. NL Deal an additional 3 damage for each stack of Showtime you have.",
+    "EXTENDED_DESCRIPTION": [
+      "Related Weapon",
+      "Deal additional #r3 damage when using #yEbony&Ivory."
     ]
   },
-    "Chargeshoot2":{
+  "Chargeshoot2": {
     "NAME": "Charge Shoot-II",
-    "DESCRIPTION": " Firearms , deal 5-9 FixedDamage to all enemy,deal additional 2 damage for each stack of ShowTime you have.",
-    "EXTENDED_DESCRIPTION":[
-	"Related Weapon",
-           "gain #b1 ShowTime when equipping #yCoyote-A "
+    "DESCRIPTION": "Firearms NL Deal 5-9 Fixed Damage to all enemies. NL Deal additional 2 damage for each stack of Showtime you have.",
+    "EXTENDED_DESCRIPTION": [
+      "Related Weapon",
+      "Gain #b1 Showtime when using #yCoyote-A."
     ]
   },
-    "Dash1":{
+  "Dash1": {
     "NAME": "Jump Cancel",
-    "DESCRIPTION": "Discard your hand, then draw that many cards.",
-    "UPGRADE_DESCRIPTION": "Discard your hand, then draw that many cards and 1 more."
+    "DESCRIPTION": "Discard your hand. NL then draw that many cards.",
+    "UPGRADE_DESCRIPTION": "Discard your hand. NL then draw that many cards and 1 more."
   },
-    "Dash2":{
+  "Dash2": {
     "NAME": "Dash",
-    "DESCRIPTION": "gain !B! Block, gain !M! ShowTime "
+    "DESCRIPTION": "Gain !B! Block. NL Gain !M! Showtime."
   },
-    "Doubleshoot":{
+  "Doubleshoot": {
     "NAME": "Twosome Time",
-    "DESCRIPTION": " Firearms , deal 3 FixedDamage to a random enemy 3 times, attack 1 more time for every 2 stack of ShowTime on you.",
-    "EXTENDED_DESCRIPTION":[
-           "Related Weapon",
-           "deal additional #r3damage when equipping #yEbony&Ivory "
+    "DESCRIPTION": "Firearms NL Deal 3 Fixed Damage to a random enemy 3 times. NL attack 1 more time for every 2 stacks of Showtime you have.",
+    "EXTENDED_DESCRIPTION": [
+      "Related Weapon",
+      "Deal additional #r3damage when using #yEbony&Ivory."
     ]
   },
-    "EbonyIvory":{
+  "EbonyIvory": {
     "NAME": "Ebony&Ivory",
-    "DESCRIPTION": " Weapon , Strengthen firearms attack cards, gain special effect when you have Gunslinger on you."
+    "DESCRIPTION": "Weapon NL Improves firearms attack cards. NL Gains special effect when you have Gunslinger style active."
   },
-    "Fullhouse":{
+  "Fullhouse": {
     "NAME": "Full House",
-    "DESCRIPTION": "Lose 2 ShowTime , deal !D! damage, add an Air Hike into your hand.",
-    "EXTENDED_DESCRIPTION":[
-           "Related Weapon",
-           "gain Flex for every stack of ShowTime on you when equipping #yGilgamesh ."
+    "DESCRIPTION": "Lose 2 Showtime. NL Deal !D! damage. NL Add an Air Hike to your hand.",
+    "EXTENDED_DESCRIPTION": [
+      "Related Weapon",
+      "Gain Flex for every stack of Showtime you have when using #yGilgamesh."
     ]
   },
-    "GilgameshcomboA":{
+  "GilgameshcomboA": {
     "NAME": "Gilgamesh Combo A",
-    "DESCRIPTION": "Lose 1 ShowTime , deal !D! damage twice.",
-    "UPGRADE_DESCRIPTION": "Lose 1 ShowTime , deal !D! damage twice, gain 2 ShowTime .",
-    "EXTENDED_DESCRIPTION":[
-           "Related Weapon",
-           "gain #r2 Flex when equipping #yGilgamesh ",
-           "Not enough ShowTime ."
+    "DESCRIPTION": "Lose 1 Showtime. NL Deal !D! damage twice.",
+    "UPGRADE_DESCRIPTION": "Lose 1 Showtime. NL Deal !D! damage twice. NL Gain 2 Showtime.",
+    "EXTENDED_DESCRIPTION": [
+      "Related Weapon",
+      "Gain #r2 Flex when using #yGilgamesh.",
+      "Not enough Showtime!"
     ]
   },
-    "Hightime":{
+  "Hightime": {
     "NAME": "High Time",
     "DESCRIPTION": "Put 1 attack card from draw pile into your hand.",
-    "EXTENDED_DESCRIPTION":[
-           "Related Weapon",
-           "gain #b1 ShowTime when equipping #yRebellion ",
-           "No attack card in draw pile."
+    "EXTENDED_DESCRIPTION": [
+      "Related Weapon",
+      "Gain #b1 Showtime when using #yRebellion.",
+      "No attack cards in draw pile."
     ]
   },
-    "Kick13":{
+  "Kick13": {
     "NAME": "Kick 13",
-    "DESCRIPTION": "Lose 2 ShowTime , deal !D! damage 8 times, gain !M! ShowTime , Exhaust.",
-    "EXTENDED_DESCRIPTION":[
-           "Related Weapon",
-           "gain #r2 ShowTime when equipping #yGilgamesh ",
-           "Not enough ShowTime ."
+    "DESCRIPTION": "Lose 2 Showtime. NL Deal !D! damage 8 times. NL Gain !M! Showtime. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      "Related Weapon",
+      "Gain #r2 Showtime when using #yGilgamesh.",
+      "Not enough Showtime!"
     ]
   },
-    "LucifercomboA":{
+  "LucifercomboA": {
     "NAME": "Lucifer Combo A",
-    "DESCRIPTION": " Melee ,deal !D! damage twice, apply 2 EndlessSword to you and your enemy.",
-    "UPGRADE_DESCRIPTION": " Melee ,deal !D! damage two times, apply 3 EndlessSword to you, and apply 2 EndlessSword to your enemy"
+    "DESCRIPTION": "Melee NL Deal !D! damage twice. NL Apply 2 Endless Swords to you and your enemy.",
+    "UPGRADE_DESCRIPTION": "Melee NL Deal !D! damage two times. NL Apply 3 Endless Swords to you. NL Apply 2 Endless Swords to your enemy."
   },
-    "LucifercomboB":{
+  "LucifercomboB": {
     "NAME": "Lucifer Combo B",
-    "DESCRIPTION": " Melee ,deal !D! damage, apply 2 EndlessSword to you, and apply 3 EndlessSword to your enemy",
-    "UPGRADE_DESCRIPTION": " Melee ,deal !D! damage, apply 3 EndlessSword to you, and apply 4 EndlessSword to your enemy"
+    "DESCRIPTION": "Melee. NL Deal !D! damage. NL apply 2 Endless Swords to you. NL and apply 3 Endless Swords to your enemy.",
+    "UPGRADE_DESCRIPTION": "Melee NL Deal !D! damage. NL Apply 3 Endless Swords to you. NL Apply 4 Endless Swords to your enemy."
   },
-    "LucifercomboC":{
+  "LucifercomboC": {
     "NAME": "Lucifer Combo C",
-    "DESCRIPTION": " Melee ,deal !D! damage, apply EndlessSword for every stack of ShowTime on you",
-    "UPGRADE_DESCRIPTION": " Melee ,deal !D! damage, apply EndlessSword for every stack of ShowTime on you to you and your enemy"
+    "DESCRIPTION": "Melee NL Deal !D! damage. NL Apply 1 Endless Sword for every stack of Showtime you have.",
+    "UPGRADE_DESCRIPTION": "Melee NL Deal !D! damage. NL Apply 1 Endless Sword for every stack of Showtime you have to you and your enemy."
   },
-    "Millionkick":{
+  "Millionkick": {
     "NAME": "Million Kick",
-    "DESCRIPTION": "Lose 2 ShowTime , deal !D! damage to a random enemy 6 time, gain !M! ShowTime , Exhaust",
-    "EXTENDED_DESCRIPTION":[
-           "Related Weapon",
-           "gain #r2 Flex when equipping #yGilgamesh ",
-           "Not enough ShowTime ."
+    "DESCRIPTION": "Lose 2 Showtime. NL Deal !D! damage to a random enemy 6 times. NL Gain !M! Showtime. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      "Related Weapon",
+      "Gain #r2 Flex when using #yGilgamesh.",
+      "Not enough Showtime!"
     ]
   },
-    "Millionstab":{
+  "Millionstab": {
     "NAME": "Million Stab",
-    "DESCRIPTION": "Melee ,deal !D! damage two times, gain !M! ShowTime ",
-    "EXTENDED_DESCRIPTION":[
-           "Related Weapon",
-           "attack #r1 more time for every #b3 stack of ShowTime on you when equipping #yRebellion ."
+    "DESCRIPTION": "Melee NL Deal !D! damage two times. NL Gain !M! Showtime.",
+    "EXTENDED_DESCRIPTION": [
+      "Related Weapon",
+      "Attack #r1 more times for every #b3 stacks of Showtime you have when using #yRebellion."
     ]
   },
-    "Rebellion":{
+  "Rebellion": {
     "NAME": "Rebellion",
-    "DESCRIPTION": "Weapon, Million Stab deal 2 more damage, gain special effect when using related attack cards, gain special effect when you have SwordMaster on you.",
-    "UPGRADE_DESCRIPTION": "Weapon, Million Stab deal 2 more damage, gain special effect when using related attack cards, gain special effect when you have SwordMaster on you, gain 2 strength ."
+    "DESCRIPTION": "Weapon NL Improves related cards. NL Million Stab deals 2 more damage. NL Gain special effect when you have Swordmaster style active.",
+    "UPGRADE_DESCRIPTION": "Weapon NL Improves related cards. NL Million Stab deals 2 more damage. NL Gain special effect when you have Swordmaster style active. NL Gain 2 strength."
   },
-    "Redorb":{
+  "Redorb": {
     "NAME": "Red Orb",
-    "DESCRIPTION": "Mark 1 enemy, gain 1-50 coins after killing the target, Exhaust.",
-    "UPGRADE_DESCRIPTION": " Innate ,mark 1 enemy, gain 1-50 coins after killing the target."
+    "DESCRIPTION": "Mark 1 enemy. NL Gain 1-50 coins after killing the target. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Mark 1 enemy. NL Gain 1-50 coins after killing the target."
   },
-    "Straight":{
+  "Straight": {
     "NAME": "Straight",
-    "DESCRIPTION": "Deal !D! damage, gain !B! Block.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage, gain !B! Block, gain !M! ShowTime .",
-    "EXTENDED_DESCRIPTION":[
-           "Related Weapon",
-           "gain #r1 Flex, deal double damage when equipping #yGilgamesh "
+    "DESCRIPTION": "Deal !D! damage. NL Gain !B! Block.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Gain !B! Block. NL Gain !M! Showtime.",
+    "EXTENDED_DESCRIPTION": [
+      "Related Weapon",
+      "Gain #r1 Flex. NL Deal double damage when using #yGilgamesh."
     ]
   },
-    "VitalstarS":{
+  "VitalstarS": {
     "NAME": "Vital Star-S",
-    "DESCRIPTION": "Lose 15 coins,Heal 3 Hp, Exhaust.",
-    "EXTENDED_DESCRIPTION":[
-           "Not enough coins!"
+    "DESCRIPTION": "Lose 15 coins. NL Heal 3 HP. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      "Not enough coins!"
     ]
   },
-    "Weaponchange":{
-    "NAME": "Weapon switching",
-    "DESCRIPTION": "Put a power card from your draw pile into your hand，it cost 0 this turn, Exhaust",
-    "UPGRADE_DESCRIPTION": " Innate . Put a power card from your draw pile into your hand，it cost 0 this turn, Exhaust.",
-    "EXTENDED_DESCRIPTION":[
-           "No power card in draw pile!"
+  "Weaponchange": {
+    "NAME": "Weapon Switching",
+    "DESCRIPTION": "Put a power card from your draw pile into your hand，it cost 0 this turn. NL Exhaust",
+    "UPGRADE_DESCRIPTION": "Innate. Put a power card from your draw pile into your hand，it cost 0 this turn. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      "No power card in draw pile!"
     ]
   },
-    "Weaponupgrade":{
+  "Weaponupgrade": {
     "NAME": "Skill Allocation",
-    "DESCRIPTION": "Lose 10 coins, Upgrade a card in your hand for the rest of the combat.",
-    "EXTENDED_DESCRIPTION":[
-           "Not enough coins!"
+    "DESCRIPTION": "Lose 10 coins. NL Upgrade a card in your hand for the rest of the combat.",
+    "EXTENDED_DESCRIPTION": [
+      "Not enough coins!"
     ]
   },
-    "Airtrick":{
+  "Airtrick": {
     "NAME": "Air Trick",
-    "DESCRIPTION": "Discard your hand, gain ShowTime equal to the number of cards you discard plus 1, Exhaust.",
-    "UPGRADE_DESCRIPTION": "Discard your hand, gain ShowTime equal to the number of cards you discard plus 2, Exhaust."
+    "DESCRIPTION": "Discard your hand. NL Gain Showtime equal to the number of cards you discard plus 1. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Discard your hand. NL Gain Showtime equal to the number of cards you discard plus 2. NL Exhaust."
   },
-    "Blueorb":{
+  "Blueorb": {
     "NAME": "Blue Orb",
-    "DESCRIPTION": "Lose 100 coins, raise your max HP by 10, Exhaust.",
-    "EXTENDED_DESCRIPTION":[
-           "Not enough coins!"
+    "DESCRIPTION": "Lose 100 coins. NL Raise your max HP by 10. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      "Not enough coins!"
     ]
   },
-    "Darkslayer":{
+  "Darkslayer": {
     "NAME": "Dark Slayer",
-    "DESCRIPTION": " Style , add 1 Yamato into your hand, it cost 0 this turn, Exhaust.",
-    "UPGRADE_DESCRIPTION": " Style , add 1 Yamato into your hand, it cost 0 this turn."
+    "DESCRIPTION": "Style NL Add 1 Yamato into your hand. NL It cost 0 this turn. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Style NL Add 1 Yamato into your hand. NL It cost 0 this turn."
   },
-    "Demonreform":{
+  "Demonreform": {
     "NAME": "Devil Trigger",
-    "DESCRIPTION": "Gain DevilTrigger !M! turns, Exhaust.",
-    "EXTENDED_DESCRIPTION":[
-          "You already have #rDevil #rTrigger , unusable!"
+    "DESCRIPTION": "Gain Devil Trigger for !M! turns. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      "You already have #rDevil #rTrigger. NL Unusable!"
     ]
   },
-    "DevilstarL":{
+  "DevilstarL": {
     "NAME": "Devil Star-L",
-    "DESCRIPTION": "Lose 60 coins, gain 6 ShowTime , Exhaust.",
-    "EXTENDED_DESCRIPTION":[
-           "Not enough coins!"
+    "DESCRIPTION": "Lose 60 coins. NL Gain 6 Showtime. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      "Not enough coins!"
     ]
   },
-    "Enemystep":{
+  "Enemystep": {
     "NAME": "Mustang",
     "DESCRIPTION": "If the enemy intends to attack, it loses 10 strength for 1 turn.",
-    "UPGRADE_DESCRIPTION": "If the enemy intends to attack, it loses 10 strength for 1 turn, you gain 2 Flex ."
+    "UPGRADE_DESCRIPTION": "If the enemy intends to attack, it loses 10 strength for 1 turn. NL You gain 2 Flex."
   },
-    "Goldorb":{
+  "Goldorb": {
     "NAME": "Gold Orb",
-    "DESCRIPTION": "Lose 300 coins, if you die in this combat, heal to 50% of your Max Hp instead once, Exhaust.",
-    "EXTENDED_DESCRIPTION":[
-           "Not enough coins!"
+    "DESCRIPTION": "Lose 300 coins. NL When you would die, heal to 50% of your Max HP instead (works once). NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      "Not enough coins!"
     ]
   },
-    "Purpleorb":{
+  "Purpleorb": {
     "NAME": "Purple Orb",
-    "DESCRIPTION": "Lose 150 coins, gain 1 ShowTime at the start of your turn this run(Max +4), gain 4 ShowTime , Exhaust.",
-    "EXTENDED_DESCRIPTION":[
-           "Not enough coins!"
+    "DESCRIPTION": "Lose 150 coins. NL Gain 1 Showtime at the start of your turn for this run, up to 4. NL Gain 4 Showtime. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      "Not enough coins!"
     ]
   },
-    "Royalguard":{
+  "Royalguard": {
     "NAME": "Royal Guard",
-    "DESCRIPTION": " Style , gain RoyalGuard for 1 turn.",
-    "UPGRADE_DESCRIPTION": " Style , gain RoyalGuard for 1 turn, strengthen RoyalGuard, add 1 Dreadnaught into your hand."
+    "DESCRIPTION": "Style NL Gain RoyalGuard for 1 turn.",
+    "UPGRADE_DESCRIPTION": "Style NL Gain RoyalGuard for 1 turn. NL Add 1 Dreadnaught to your hand."
   },
-    "Splesh":{
+  "Splesh": {
     "NAME": "Splesh",
-    "DESCRIPTION": " Melee ,Lose 4 EndlessSword and all ShowTime on you ,deal !D! damage to all the enemy, Exhaust.",
-    "UPGRADE_DESCRIPTION": " Melee ,Lose 4 EndlessSword and all ShowTime on you ,deal !D! damage to all the enemy.",
-    "EXTENDED_DESCRIPTION":[
-           "Related Weapon",
-           "Apply EndlessSword equal to #r3 times of ShowTime on you when equipping #yLucifer "
+    "DESCRIPTION": "Melee NL Lose 4 Endless Swords and all Showtime. NL Deal !D! damage to all enemies. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Melee NL Lose 4 Endless Swords and all Showtime. NL Deal !D! damage to all enemies.",
+    "EXTENDED_DESCRIPTION": [
+      "Related Weapon",
+      "Apply Endless Swords equal to #r3 times of Showtime you have when using #yLucifer."
     ]
   },
-    "Stylechange":{
+  "Stylechange": {
     "NAME": "Style Switch",
-    "DESCRIPTION": "Add a random StyleCard into your hand, it costs 0 this turn.",
-    "UPGRADE_DESCRIPTION": " Innate , add a random StyleCard into your hand, it costs 0 this turn, put 1 card from your draw pile into your hand."
+    "DESCRIPTION": "Add a random StyleCard into your hand. NL it costs 0 this turn.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Add a random Style Card to your hand. NL It costs 0 this turn. NL Put 1 card from your draw pile into your hand."
   },
-    "Swordcombo":{
+  "Swordcombo": {
     "NAME": "Dance Macaber",
-    "DESCRIPTION": " Melee , deal !D! damage 5 times, gain !M! ShowTime .",
-    "EXTENDED_DESCRIPTION":[
-           "Related Weapon",
-           "gain #b1 more ShowTime when equipping #yRebellion "
+    "DESCRIPTION": "Melee NL Deal !D! damage 5 times. NL Gain !M! Showtime.",
+    "EXTENDED_DESCRIPTION": [
+      "Related Weapon",
+      "Gain #b1 more Showtime when using #yRebellion."
     ]
   },
-    "Trickster":{
+  "Trickster": {
     "NAME": "Trickster",
-    "DESCRIPTION": "Style, choose two cards at hand, they cost 0 once this combat, add 1 SkyStar at hand."
+    "DESCRIPTION": "Style. NL Choose two cards in your hand. NL They cost 0 until played. NL Add 1 SkyStar to your hand."
   },
-    "VitalstarL":{
+  "VitalstarL": {
     "NAME": "Vital Star-L",
-    "DESCRIPTION": "Lose 50 coins, heal 20 Hp, Exhaust.",
-    "EXTENDED_DESCRIPTION":[
-           "Not enough coins!"
+    "DESCRIPTION": "Lose 50 coins. NL Heal 20 HP. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      "Not enough coins!"
     ]
   },
-    "Weaponreturn":{
+  "Weaponreturn": {
     "NAME": "Weapon Return",
-    "DESCRIPTION": "When Weapon power removed, add a same weapon card which is not upgraded into your discard pile( Yamato not included), Exhaust.",
-    "UPGRADE_DESCRIPTION": "When Weapon power removed, add a same Weapon card which is upgraded into your discard pile( Yamato not included), Exhaust."
+    "DESCRIPTION": "When a Weapon is removed from play, add the same unupgraded weapon card to your draw pile (excluding Yamato). NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "When a Weapon is removed from play, add the same upgraded weapon card to your draw pile (excluding Yamato). NL Exhaust."
   },
-  	"Airhike2":{
+  "Airhike2": {
     "NAME": "Air Hike",
-    "DESCRIPTION": "Put a card from your hand on top of your draw pile, put a skill card from your discard pile into your hand, Exhaust.",
-    "EXTENDED_DESCRIPTION":[
-           "No skill card in my discard pile!"
+    "DESCRIPTION": "Put a card from your hand on top of your draw pile. NL Put a skill card from your discard pile into your hand. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      "No skill card in my discard pile!"
     ]
   },
-    "Climax":{
+  "Climax": {
     "NAME": "Climax",
-    "DESCRIPTION": "Lose all EndlessSword , deal !D! damage to a random enemy for every stack of EndlessSword , Exhaust, Ethereal.",
-    "EXTENDED_DESCRIPTION":[
-           "You don't have #rEndlesssword ."
+    "DESCRIPTION": "Lose all Endless Swords NL Deal !D! damage to a random enemy for every stack of Endless Swords. NL Exhaust. Ethereal.",
+    "EXTENDED_DESCRIPTION": [
+      "You don't have #rEndless Swords."
     ]
   },
-    "Dreadnaught":{
+  "Dreadnaught": {
     "NAME": "Dreadnaught",
-    "DESCRIPTION": "Lose all Rage , gain 9 Block for every stack of  Rage , Exhaust.",
-    "EXTENDED_DESCRIPTION":[
-      "Not enough  #rRage ."
+    "DESCRIPTION": "Lose all Rage. NL Gain 9 Block for every stack of Rage. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      "Not enough #rRage."
     ]
   },
-    "Fireworks":{
+  "Fireworks": {
     "NAME": "Fireworks",
-    "DESCRIPTION": " Firearms , deal 10-20 FixedDamage to all enemy 4 times, gain !M! ShowTime , Exhaust, Ethereal."
+    "DESCRIPTION": "Firearms NL Deal 10-20 Fixed Damage to all enemies 4 times. NL Gain !M! Showtime. NL Exhaust. Ethereal."
   },
-    "PF013":{
+  "PF013": {
     "NAME": "PF013:Epidemic",
-    "DESCRIPTION": " Firearms , deal 6 FixedDamage twice, gain !Calamity!, Exhaust, Ethereal."
+    "DESCRIPTION": "Firearms NL Deal 6 Fixed Damage twice. NL Gain !Calamity!. NL Exhaust. Ethereal."
   },
-    "PF262":{
+  "PF262": {
     "NAME": "PF262:Jealousy",
-    "DESCRIPTION": " Firearms , deal 3 FixedDamage to a random enemy for every stack of ShowTime on you, gain 2 Calamity , Exhaust, Ethereal."
+    "DESCRIPTION": "Firearms NL Deal 3 Fixed Damage to a random enemy for every stack of Showtime you have. NL Gain 2 Calamity. NL Exhaust. Ethereal."
   },
-    "PF398":{
+  "PF398": {
     "NAME": "PF398:Revenge",
-    "DESCRIPTION": "Firearms , lose 3 Calamity ,deal FixedDamage equal to 4 times of ShowTime on you to all the enemy,apply 3 Weak to all the enemy, Exhaust, Ethereal.",
-    "EXTENDED_DESCRIPTION":[
+    "DESCRIPTION": "Firearms NL Lose 3 Calamity. NL Deal Fixed Damage equal to 4 times of Showtime you have to all the enemies. NL Apply 3 Weak to all enemies. NL Exhaust. Ethereal.",
+    "EXTENDED_DESCRIPTION": [
       "Not enough layers of  #rCalamity !"
     ]
   },
-    "PF594":{
+  "PF594": {
     "NAME": "PF594:Argument",
-   	"DESCRIPTION": " Firearms , lose 5 Calamity , deal 9 FixedDamage to all the enemy 4 times, attack one more time for every stack of ShowTime on you, Exhaust, Ethereal.",
-    "EXTENDED_DESCRIPTION":[
-      " Not enough layers of  #rCalamity !"
+    "DESCRIPTION": "Firearms NL Lose 5 Calamity. NL Deal 9 Fixed Damage to all enemies 4 times. NL Attack one more time for every stack of Showtime you have. NL Exhaust. Ethereal.",
+    "EXTENDED_DESCRIPTION": [
+      "Not enough layers of  #rCalamity !"
     ]
   },
-    "PF666":{
+  "PF666": {
     "NAME": "PF666:Omen",
-   	"DESCRIPTION": " Firearms , lose all Calamity , remove Block from all the enemy, Stun the enemy for one turn, deal FixedDamage equal to 3 times of ShowTime on you, Exhaust, Ethereal.",
-    "EXTENDED_DESCRIPTION":[
-      " Not enough layers of  #rCalamity !"
+    "DESCRIPTION": "Firearms NL Lose all Calamity. NL Remove Block from all enemies. NL Stun the enemy for one turn. NL Deal Fixed Damage equal to 3 times of Showtime you have. NL Exhaust. Ethereal.",
+    "EXTENDED_DESCRIPTION": [
+      "Not enough layers of  #rCalamity!"
     ]
   },
-    "PINUP":{
+  "PINUP": {
     "NAME": "PIN-UP",
-    "DESCRIPTION": "Gain 3 EndlessSword for every stack of ShowTime on you, Exhaust, Ethereal."
+    "DESCRIPTION": "Gain 3 Endless Swords for every stack of Showtime on you. NL Exhaust. Ethereal."
   },
-    "Rainstorm":{
+  "Rainstorm": {
     "NAME": "Rain Storm",
-    "DESCRIPTION": " Firearms , deal 5 FixedDamage to a random enemy 3 times for every stack of ShowTime on you, gain 2 ShowTime , Exhaust, Ethereal."
+    "DESCRIPTION": "Firearms NL Deal 5 Fixed Damage to a random enemy 3 times for every stack of Showtime on you. NL Gain 2 Showtime. NL Exhaust. Ethereal."
   },
-    "Rebellionsword":{
+  "Rebellionsword": {
     "NAME": "Over Drive",
-    "DESCRIPTION": " Melee , deal 3 damage to all the enemy for every stack of ShowTime on you, gain !M! ShowTime , Exhaust, Ethereal."
+    "DESCRIPTION": "Melee NL Deal 3 damage to all enemies for every stack of Showtime on you. NL Gain !M! Showtime. NL Exhaust. Ethereal."
   },
-    "Release":{
+  "Release": {
     "NAME": "Release",
-    "DESCRIPTION": "Lose all Rage , deal damage equal to 3 times your Block, Exhaust, Ethereal.",
-    "EXTENDED_DESCRIPTION":[
-           "Rage Strengthened",
-           "Deal #r30% max Hp instead when you lose 3 or more Rage.",
-      " Not enough  #rRage ."
+    "DESCRIPTION": "Lose all Rage. NL Deal damage equal to 3 times your Block. NL Exhaust. Ethereal.",
+    "EXTENDED_DESCRIPTION": [
+      "Rage Improved",
+      "Deal #r30% max HP instead when you lose 3 or more Rage.",
+      "Not enough #rRage."
     ]
   },
-    "Risingdragon":{
+  "Risingdragon": {
     "NAME": "Real Impact",
-    "DESCRIPTION": "Can be triggered only when you have Demonreform on you, lose all ShowTime , deal damage equal to 18 times of stacks of ShowTime you lose, Strength affects this card 10 times, Exhaust, Ethereal.",
-    "EXTENDED_DESCRIPTION":[
-           "You're not in #rDemonreform , unusable.",
-      "Not enough #rShowTime ."
+    "DESCRIPTION": "Can be triggered only when you have Demon Reform on you. NL Lose all Showtime. NL Deal damage equal to 18 times of stacks of Showtime you lose. NL Strength affects this card 10 times. NL Exhaust. Ethereal.",
+    "EXTENDED_DESCRIPTION": [
+      "You're not in #rDemonreform NL unusable.",
+      "Not enough #rShowtime."
     ]
   },
-    "Royalrelease":{
+  "Royalrelease": {
     "NAME": "Royal Release",
-    "DESCRIPTION": "Lose all Rage , deal damage equal to 5 times your Block, Exhaust, Ethereal.",
-    "EXTENDED_DESCRIPTION":[
-           "Rage Strengthened",
-           "Deal #r50% max Hp instead when you lose 6 or more Rage.",
-      " Not enough  #rRage ."
+    "DESCRIPTION": "Lose all Rage. NL Deal damage equal to 5 times your Block. NL Exhaust. Ethereal.",
+    "EXTENDED_DESCRIPTION": [
+      "Rage Strengthened",
+      "Deal #r50% max HP instead when you lose 6 or more Rage.",
+      "Not enough #rRage."
     ]
   },
-    "Sheathing":{
+  "Sheathing": {
     "NAME": "Sheathing",
-    "DESCRIPTION": "Remove all DimensionFissure ,  deal 3 TrueDamage for every stack removed, gain [R] for every 3 stacks, gain 1 ShowTime , Exhaust."
+    "DESCRIPTION": "Remove all Dimension Fissure. NL Deal 3 True Damage for every stack removed. NL Gain [R] for every 3 stacks. NL Gain 1 Showtime. NL Exhaust."
   },
-    "Skystar":{
+  "Skystar": {
     "NAME": "Sky Star",
-    "DESCRIPTION": "Gain SkyStar for 1 turn, Exhaust."
+    "DESCRIPTION": "Gain SkyStar for 1 turn. NL Exhaust."
   },
-    "Slashdimension1":{
+  "Slashdimension1": {
     "NAME": "Slash Dimension F",
-    "DESCRIPTION": "Deal !D! TrueDamage 3 times to all enemies, apply 3 Vulnerable , 3 DimensionFissure , gain 1 ShowTime , Exhaust, Ethereal."
+    "DESCRIPTION": "Deal !D! True Damage 3 times to all enemies. NL Apply 3 Vulnerable, 3 DimensionFissure. NL Gain 1 Showtime. NL Exhaust. Ethereal."
   },
-    "Slashdimension2":{
+  "Slashdimension2": {
     "NAME": "Slash Dimension C",
-    "DESCRIPTION": "Deal !D! TrueDamage 5 times, apply 5 DimensionFissure , gain 2 ShowTime , Exhaust, Ethereal."
+    "DESCRIPTION": "Deal !D! True Damage 5 times. NL Apply 5 Dimension Fissure NL Gain 2 Showtime. NL Exhaust. Ethereal."
   },
-    "Yamato":{
+  "Yamato": {
     "NAME": "Yamato",
-    "DESCRIPTION": " Weapon , this card lasts one turn. Gain Yamato , apply 1 random colorless Melee attack card into your hand."
+    "DESCRIPTION": "Weapon NL This card lasts one turn. Gain Yamato. NL Apply 1 random colorless Melee attack card into your hand."
   },
-    "CoyoteA":{
+  "CoyoteA": {
     "NAME": "Coyote-A",
-    "DESCRIPTION": " Weapon ,strengthen Firearms attack cards, gain special effect when you have Gunslinger on you.",
-    "UPGRADE_DESCRIPTION": " Weapon ,strengthen Firearms attack cards, gain special effect when you have Gunslinger on you, Innate."
+    "DESCRIPTION": "Weapon NL Improves firearms attack cards. NL Gains special effect when you have Gunslinger style active.",
+    "UPGRADE_DESCRIPTION": "Weapon NL Improves firearms attack cards. NL Gains special effect when you have Gunslinger style active. NL Innate."
   },
-    "DevilstarS":{
+  "DevilstarS": {
     "NAME": "Devil Star-S",
-    "DESCRIPTION": "Lose 40 coins, gain 3 ShowTime , Exhaust.",
-    "EXTENDED_DESCRIPTION":[
-           "Not enough coins!"
+    "DESCRIPTION": "Lose 40 coins. NL Gain 3 Showtime. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      "Not enough coins!"
     ]
   },
-    "DT":{
+  "DT": {
     "NAME": "DevilTrigger Shortly",
-    "DESCRIPTION": "Gain strength equal to twice your ShowTime , lose all the strength gained this way after using 1 attack card, Exhaust.",
-    "EXTENDED_DESCRIPTION":[
-           "You already have #rDevil #rTrigger , unusable."
+    "DESCRIPTION": "Gain strength equal to twice your Showtime. NL Lose all the strength gained this way after using 1 attack card. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      "You already have #rDevil #rTrigger NL unusable."
     ]
   },
-    "Ecstasy":{
+  "Ecstasy": {
     "NAME": "Ecstasy",
-    "DESCRIPTION": "Remove all EndlessSword , deal !D! damage to all enemies for every stack removed.",
-    "EXTENDED_DESCRIPTION":[
-           "The enemy did not have Endlesssword."
+    "DESCRIPTION": "Remove all Endless Swords. NL eal !D! damage to all enemies for every stack removed.",
+    "EXTENDED_DESCRIPTION": [
+      "The enemy did not have Endless Swords."
     ]
   },
-    "Gilgamesh":{
+  "Gilgamesh": {
     "NAME": "Gilgamesh",
-    "DESCRIPTION": " Weapon ,strengthen related cards, gain !M! strength, gain special effect when you have SwordMaster on you."
+    "DESCRIPTION": "Weapon NL Improves related cards. NL Gain special effect when you have Swordmaster style active."
   },
-    "Greenorb":{
+  "Greenorb": {
     "NAME": "Green Orb",
-    "DESCRIPTION": "Mark 1 enemy, heal 1-10 Hp after killing the target, Exhaust.",
-    "UPGRADE_DESCRIPTION": "Mark 1 enemy, heal 1-10 Hp after killing the target."
+    "DESCRIPTION": "Mark 1 enemy. NL heal 1-10 HP after killing the target. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Mark 1 enemy. NL heal 1-10 HP after killing the target."
   },
-    "Gunslinger":{
+  "Gunslinger": {
     "NAME": "Gunslinger",
-    "DESCRIPTION": " Style , all Firearms attack cards that are not colorless cost 0 this turn, gain 1 ShowTime and 1 Calamity for every Firearms attack card you play this turn."
+    "DESCRIPTION": "Style NL All Firearms attack cards that are not colorless cost 0 this turn. NL Gain 1 Showtime and 1 Calamity for every Firearms attack card you play."
   },
-    "Gunstinger":{
+  "Gunstinger": {
     "NAME": "Gun Stinger",
-    "DESCRIPTION": " Firearms , deal 10-20 FixedDamage that ignores Block.",
-    "EXTENDED_DESCRIPTION":[
-           "Related Weapon",
-           "gain #b1 ShowTime when equipping #yCoyote-A ."
+    "DESCRIPTION": "Firearms NL Deal 10-20 Fixed Damage that ignores Block.",
+    "EXTENDED_DESCRIPTION": [
+      "Related Weapon",
+      "Gain #b1 Showtime when using #yCoyote-A."
     ]
   },
-    "Holywater":{
+  "Holywater": {
     "NAME": "Holy Water",
-    "DESCRIPTION": "Lose 80 coins, deal 20 FixedDamage to all enemies that ignores Block, Exhaust.",
-    "EXTENDED_DESCRIPTION":[
-           "Not enough coins!"
+    "DESCRIPTION": "Lose 80 coins. NL Deal 20 Fixed Damage to all enemies. NL Ignores Block. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      "Not enough coins!"
     ]
   },
-    "Honeycombofire":{
+  "Honeycombofire": {
     "NAME": "Honeycombo Fire",
-    "DESCRIPTION": "There is 20% chance that your Firearms attack cards can be played twice this turn, Exhaust.",
-    "UPGRADE_DESCRIPTION": "There is 20% chance that your Firearms attack cards can be played twice this turn.",
-    "EXTENDED_DESCRIPTION":[
-           "Related Weapon",
-           "Chance raise to 50% when equipping #yEbony&Ivory."
+    "DESCRIPTION": "There is 20% chance that your Firearms attack cards will be played twice this turn. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "There is 20% chance that your Firearms attack cards will be played twice this turn.",
+    "EXTENDED_DESCRIPTION": [
+      "Related Weapon",
+      "Chance raises to 50% when equipping #yEbony&Ivory."
     ]
   },
-    "Lucifer":{
+  "Lucifer": {
     "NAME": "Lucifer",
-    "DESCRIPTION": " Weapon , when a card related to EndlessSword is played, gain 1 ShowTime , gain special effect when you have SwordMaster on you.",
-    "UPGRADE_DESCRIPTION": "Weapon, when a card related to EndlessSword is played, gain 1 ShowTime , gain strengthened special effect when you have SwordMaster on you."
+    "DESCRIPTION": "Weapon NL When card related to Endless Swords is played, gain 1 Showtime. NL Gain special effect when you have Swordmaster style active.",
+    "UPGRADE_DESCRIPTION": "Weapon NL When card related to Endless Swords is played, gain 1 Showtime. NL Gain special effect when you have Swordmaster style active."
   },
-    "LucifercomboD":{
+  "LucifercomboD": {
     "NAME": "Lucifer Combo D",
-    "DESCRIPTION": " Melee ,Remove all EndlessSword, deal damage equal to !D! times of stacks removed.",
-    "EXTENDED_DESCRIPTION":[
-           "Related Weapon",
-           "Gain #b4 EndlessSword when equipping #yLucifer ."
+    "DESCRIPTION": "Melee NL Remove all Endless Swords. NL Deal damage equal to !D! for each stack removed.",
+    "EXTENDED_DESCRIPTION": [
+      "Related Weapon",
+      "Gain #b4 Endless Swords when using #yLucifer."
     ]
   },
-    "Pandora":{
+  "Pandora": {
     "NAME": "Pandora",
-    "DESCRIPTION": " Weapon , strengthen Firearms attack cards,add 1 random colorless Firearms attack card into your hand at the start of every turn, gain special effect when you have Gunslinger on you.",
-    "UPGRADE_DESCRIPTION": " Weapon , strengthen Firearms attack cards,add 2 random colorless Firearms attack card into your hand at the start of every turn, gain special effect when you have Gunslinger on you."
+    "DESCRIPTION": "Weapon NL Improves firearms attack cards. NL Add 1 random colorless Firearms attack card into your hand at the start of every turn. NL Gains special effect when you have Gunslinger style active.",
+    "UPGRADE_DESCRIPTION": "Weapon NL Improves firearms attack cards. NL Add 2 random colorless Firearms attack card into your hand at the start of every turn. NL Gains special effect when you have Gunslinger style active."
   },
-    "Royaldefend":{
+  "Royaldefend": {
     "NAME": "Royal Block",
-    "DESCRIPTION": "Gain !B! Block, gain !M! Rage , Exhaust."
+    "DESCRIPTION": "Gain !B! Block. NL Gain !M! Rage. NL Exhaust."
   },
-    "Shock":{
+  "Shock": {
     "NAME": "Shock",
-    "DESCRIPTION": "Lose 2 ShowTime , deal !D! damage to all enemies, apply 2 Vulnerable to all enemies, Stun all enemies for 30% chance.",
-    "UPGRADE_DESCRIPTION": "Lose 2 ShowTime , deal !D! damage to all enemies, apply 2 Vulnerable to all enemies, Stun all enemies for 30% chance, gain 1 ShowTime .",
-    "EXTENDED_DESCRIPTION":[
-           "Related Power",
-           "gain #b1 more ShowTime when equipping #yGilgamesh NL Stun chance raise to 60% when you have DevilTrigger on you.",
-           "Not enough ShowTime ."
+    "DESCRIPTION": "Lose 2 Showtime. NL Deal !D! damage to all enemies. NL Apply 2 Vulnerable to all enemies. NL 30% chance to stun all enemies.",
+    "UPGRADE_DESCRIPTION": "Lose 2 Showtime. NL Deal !D! damage to all enemies. NL Apply 2 Vulnerable to all enemies. NL 30% chance to stun all enemies. NL Gain 1 Showtime.",
+    "EXTENDED_DESCRIPTION": [
+      "Related Power",
+      "Gain #b1 more Showtime when using #yGilgamesh. NL Stun chance raises to 60% when you have Devil Trigger active.",
+      "Not enough Showtime!"
     ]
   },
-    "SSScard":{
+  "SSScard": {
     "NAME": "SmokinSickStyle!!!",
-    "DESCRIPTION": "Gain ShowTime equal to the number of attack cards played, Exhaust, (gain !M! ShowTime now).",
-    "UPGRADE_DESCRIPTION": "Gain ShowTime equal to the number of attack cards played plus 1, Exhaust, (gain !M! ShowTime now)."
+    "DESCRIPTION": "Gain Showtime equal to the number of attack cards played this turn. NL Exhaust. NL (Gain !M! Showtime now).",
+    "UPGRADE_DESCRIPTION": "Gain Showtime equal to the number of attack cards played plus 1. NL Exhaust. NL (Gain !M! Showtime now)."
   },
-    "Stinger":{
+  "Stinger": {
     "NAME": "Stinger",
-    "DESCRIPTION": " Melee , deal !D! damage, add 1 MillionStab into your hand, Exhaust.",
-    "EXTENDED_DESCRIPTION":[
-           "Related Weapon",
-           "The MillionStab added cost 0 this turn when equipping #yRebellion ."
+    "DESCRIPTION": "Melee NL Deal !D! damage. NL Add 1 Million Stab to your hand. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      "Related Weapon",
+      "The Million Stab costs 0 this turn when using #yRebellion."
     ]
   },
-    "Swordmaster":{
+  "Swordmaster": {
     "NAME": "Sword Master",
-    "DESCRIPTION": " Style , the next !M! Melee attack cards can be played twice this turn.At the same time, triggering style scoring system in this state will turn flex into strength ."
+    "DESCRIPTION": "Style NL The next !M! Melee attack cards will be played twice this turn."
   },
-    "Unrisingdragon":{
+  "Unrisingdragon": {
     "NAME": "Rising Dragon",
-    "DESCRIPTION": "Deal damage equal to 6 times the number of stacks of ShowTime you have.",
-    "EXTENDED_DESCRIPTION":[
-           "Related Weapon",
-           "Lose at least #b2 Show Time, Strength affects this card 5 times, deal double damage while #yGilgamesh is equipped.",
-      "Not enough #rShowTime ."
+    "DESCRIPTION": "Deal damage equal to 6 times the number of stacks of Showtime you have.",
+    "EXTENDED_DESCRIPTION": [
+      "Related Weapon",
+      "Lose at least #b2 Show Time. NL Strength affects this card 5 times. NL Deal double damage while using #yGilgamesh.",
+      "Not enough #rShowtime."
     ]
   },
-    "VitalstarM":{
+  "VitalstarM": {
     "NAME": "Vital Star-M",
-    "DESCRIPTION": "Spend 30 coins, Heal 10 HP, Exhaust",
-    "EXTENDED_DESCRIPTION":[
-           "Not enough coins!"
+    "DESCRIPTION": "Spend 30 coins. NL Heal 10 HP. NL Exhaust",
+    "EXTENDED_DESCRIPTION": [
+      "Not enough coins!"
     ]
   },
-    "Whiteorb":{
+  "Whiteorb": {
     "NAME": "White Orb",
-    "DESCRIPTION": "Mark 1 enemy, gain 1-3 [R] after killing the target, Exhaust.",
-    "UPGRADE_DESCRIPTION": "Mark 1 enemy, gain 1-3 [R] after killing the target."
+    "DESCRIPTION": "Mark 1 enemy. NL Gain 1-3 [R] after killing the target. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Mark 1 enemy. NL Gain 1-3 [R] after killing the target."
   }
-  
+
 }
