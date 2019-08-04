@@ -8,6 +8,7 @@ import com.megacrit.cardcrawl.actions.utility.UseCardAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.cards.DamageInfo.DamageType;
+import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.helpers.ImageMaster;
 import com.megacrit.cardcrawl.relics.AbstractRelic;
@@ -114,13 +115,12 @@ public class SSS extends CustomRelic
 	   isSelect = false;
 	   x = 0;
    }
-   
-   public int onAttackedMonster(DamageInfo info, int damageAmount)
-   {
+	
+	@Override
+	public void onAttack(final DamageInfo info, final int damageAmount, final AbstractCreature target) {
 	  isSelect = true;
 	  x += 1;
 	  flash();
-	  return damageAmount;
      }
    
    @Override

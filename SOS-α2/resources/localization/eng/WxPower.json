@@ -2,19 +2,19 @@
   "Angrypower": {
     "NAME": "Rage",
     "DESCRIPTIONS": [
-      	"9 stack at most, gain #b",
-      	" Showtime and [R], lose #b1 stack per turn.",
-      	"9 stack at most, gain #b",
-      	" Showtime and [R]."
+      	" #r9 stack at most, gain #b",
+      	" Showtime and [R] , lose #b1 stack per turn.",
+      	" #r9 stack at most, gain #b",
+      	" Showtime and [R] ."
     ]
   },
   "showtime": {
     "NAME": "Showtime",
     "DESCRIPTIONS": [
 		"Gain #b",
-		" #yBlock, resets at the end of your turn. When receiving Attack damage, reduce Showtime by #b1.",
+		"  #yBlock , resets at the end of your turn. When receiving Attack damage, reduce Showtime by #b1.",
 		"Gain #b",
-		" #yBlock. When receiving Attack damage, reduce Showtime by #b1."
+		"  #yBlock . When receiving Attack damage, reduce Showtime by #b1."
     ]
   },
   "Catastrophepower": {

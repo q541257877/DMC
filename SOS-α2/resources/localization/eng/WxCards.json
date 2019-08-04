@@ -95,7 +95,8 @@
     "DESCRIPTION": "Lose 2 Showtime. NL Deal !D! damage. NL Add an Air Hike to your hand.",
     "EXTENDED_DESCRIPTION": [
       "Related Weapon",
-      "Gain Flex for every stack of Showtime you have when using Gilgamesh."
+      "Gain Flex for every stack of Showtime you have when using Gilgamesh.",
+      "Not enough Showtime!"
     ]
   },
   "GilgameshcomboA": {

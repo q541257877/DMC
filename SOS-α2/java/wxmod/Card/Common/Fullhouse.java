@@ -70,7 +70,7 @@ public class Fullhouse extends CustomCard{
 		if(!canUse) return false;
 		if(GetPowerAmtAction.PowerAmt(p, "showtime") <2) {
 			canUse = false;
-			this.cantUseMessage = "表演时间层数不足";
+			this.cantUseMessage = EXTENDED_DESCRIPTION[3];
 		}
 		return canUse;
 	}
