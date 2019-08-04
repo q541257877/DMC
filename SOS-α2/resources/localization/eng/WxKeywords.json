@@ -20,7 +20,7 @@
       	],
       	"DESCRIPTION": "Firearms attack cards, can be empowered by Gunslinger style."
     },{
-		"PROPER_NAME": "Fixed Damage",
+		"PROPER_NAME": "Fixed_Damage",
     	"NAMES": [
 			"Fixed Damage",
         	"fixed_damage"
@@ -45,7 +45,7 @@
       	],
       	"DESCRIPTION": "Improves Firearms attack cards, gains special effect when you have Firearms weapon equipped."
     },{
-		"PROPER_NAME": "Devil Trigger",
+		"PROPER_NAME": "Devil_Trigger",
     	"NAMES": [
 			"Devil Trigger",
 			"devil_trigger"
@@ -88,7 +88,7 @@
       	],
       	"DESCRIPTION": "Related cards deal damage that ignores Block."
     },{
-		"PROPER_NAME": "Endless Swords",
+		"PROPER_NAME": "Endless_Swords",
     	"NAMES": [
 			"Endless Swords",
 			"endless_swords"
@@ -101,7 +101,7 @@
       	],
       	"DESCRIPTION": "Can trigger special effect with Sheathing, lose 1 per at the end of your turn."
     },{
-		"PROPER_NAME": "True Damage",
+		"PROPER_NAME": "True_Damage",
     	"NAMES": [
 			"True Damage",
 			"true_damage"
@@ -114,12 +114,12 @@
       	],
       	"DESCRIPTION": "Only one weapon can be equipped at the time, each has its own limits and triggers."
     },{
-		"PROPER_NAME": "Devil Arm",
+		"PROPER_NAME": "Devil_Arm",
     	"NAMES": [
 			"Devil Arm",
 			"devil_arm"
       	],
-      	"DESCRIPTION": "Devil Arms weapons include Rebellion, Gilgamesh, Lucifer and Yamato."
+      	"DESCRIPTION": "Devil Arms include Rebellion, Gilgamesh, Lucifer and Yamato."
     },{
     	"NAMES": [
         	"firearm",
@@ -139,14 +139,14 @@
       	],
       	"DESCRIPTION": "Make enemy incapable of action."
     },{
-		"PROPER_NAME": "Demon Reform",
+		"PROPER_NAME": "Demon_Reform",
     	"NAMES": [
 			"Demon Reform",
         	"demon_reform"
       	],
       	"DESCRIPTION": "Gain Devil Trigger or improve Devil Trigger briefly."
     },{
-		"PROPER_NAME": "Style Card",
+		"PROPER_NAME": "Style_Card",
     	"NAMES": [
 			"Style Card",
 			"style_card"
