@@ -30,11 +30,11 @@
   },
   "Shoot": {
     "NAME": "Shoot",
-    "DESCRIPTION": "Firearms NL Deal 6 Fixed damage. NL (Has special effect based on the #yFirearm equipped.)",
+    "DESCRIPTION": "Firearms NL Deal 6 #yFixed_Damage. NL (Has special effect based on the #yFirearm equipped.)",
     "EXTENDED_DESCRIPTION": [
-      "Firearms NL Deal 6 Fixed damage.",
-      "Firearms NL Deal 6 Fixed damage. NL Deal the same damage to random 1 or 2 other enemies. NL Gain 1 Showtime.",
-      "Firearms NL Deal 6 Fixed damage twice."
+      "Firearms NL Deal 6 #yFixed_Damage.",
+      "Firearms NL Deal 6 #yFixed_Damage. NL Deal the same damage to random 1 or 2 other enemies. NL Gain 1 Showtime.",
+      "Firearms NL Deal 6 #yFixed_Damage twice."
     ]
   },
   "Airhike": {
@@ -55,7 +55,7 @@
   },
   "Chargeshoot": {
     "NAME": "Charge Shoot-I",
-    "DESCRIPTION": "Firearms NL Deal 9 Fixed damage. NL Deal an additional 3 damage for each stack of Showtime you have.",
+    "DESCRIPTION": "Firearms NL Deal 9 #yFixed_Damage. NL Deal an additional 3 damage for each stack of Showtime you have.",
     "EXTENDED_DESCRIPTION": [
       "Related Weapon",
       "Deal additional #r3 damage when using #yEbony&Ivory."
@@ -63,7 +63,7 @@
   },
   "Chargeshoot2": {
     "NAME": "Charge Shoot-II",
-    "DESCRIPTION": "Firearms NL Deal 5-9 Fixed damage to all enemies. NL Deal additional 2 damage for each stack of Showtime you have.",
+    "DESCRIPTION": "Firearms NL Deal 5-9 #yFixed_Damage to all enemies. NL Deal additional 2 damage for each stack of Showtime you have.",
     "EXTENDED_DESCRIPTION": [
       "Related Weapon",
       "Gain #b1 Showtime when using #yCoyote-A."
@@ -80,7 +80,7 @@
   },
   "Doubleshoot": {
     "NAME": "Twosome Time",
-    "DESCRIPTION": "Firearms NL Deal 3 Fixed damage to a random enemy 3 times. NL Attack 1 more time for every 2 stacks of Showtime you have.",
+    "DESCRIPTION": "Firearms NL Deal 3 #yFixed_Damage to a random enemy 3 times. NL Attack 1 more time for every 2 stacks of Showtime you have.",
     "EXTENDED_DESCRIPTION": [
       "Related Weapon",
       "Deal additional #r3damage when using #yEbony&Ivory."
@@ -315,33 +315,33 @@
   },
   "Fireworks": {
     "NAME": "Fireworks",
-    "DESCRIPTION": "Firearms NL Deal 10-20 Fixed damage to all enemies 4 times. NL Gain !M! Showtime. NL Exhaust. Ethereal."
+    "DESCRIPTION": "Firearms NL Deal 10-20 #yFixed_Damage to all enemies 4 times. NL Gain !M! Showtime. NL Exhaust. Ethereal."
   },
   "PF013": {
     "NAME": "PF013:Epidemic",
-    "DESCRIPTION": "Firearms NL Deal 6 Fixed damage twice. NL Gain !Calamity!. NL Exhaust. Ethereal."
+    "DESCRIPTION": "Firearms NL Deal 6 #yFixed_Damage twice. NL Gain !Calamity!. NL Exhaust. Ethereal."
   },
   "PF262": {
     "NAME": "PF262:Jealousy",
-    "DESCRIPTION": "Firearms NL Deal 3 Fixed damage to a random enemy for every stack of Showtime you have. NL Gain 2 Calamity. NL Exhaust. Ethereal."
+    "DESCRIPTION": "Firearms NL Deal 3 #yFixed_Damage to a random enemy for every stack of Showtime you have. NL Gain 2 Calamity. NL Exhaust. Ethereal."
   },
   "PF398": {
     "NAME": "PF398:Revenge",
-    "DESCRIPTION": "Firearms NL Lose 3 Calamity. NL Deal Fixed damage equal to 4 times of Showtime you have to all the enemies. NL Apply 3 Weak to all enemies. NL Exhaust. Ethereal.",
+    "DESCRIPTION": "Firearms NL Lose 3 Calamity. NL Deal #yFixed_Damage equal to 4 times of Showtime you have to all the enemies. NL Apply 3 Weak to all enemies. NL Exhaust. Ethereal.",
     "EXTENDED_DESCRIPTION": [
       "Not enough layers of  #rCalamity !"
     ]
   },
   "PF594": {
     "NAME": "PF594:Argument",
-    "DESCRIPTION": "Firearms NL Lose 5 Calamity. NL Deal 9 Fixed damage to all enemies 4 times. NL Attack one more time for every stack of Showtime you have. NL Exhaust. Ethereal.",
+    "DESCRIPTION": "Firearms NL Lose 5 Calamity. NL Deal 9 #yFixed_Damage to all enemies 4 times. NL Attack one more time for every stack of Showtime you have. NL Exhaust. Ethereal.",
     "EXTENDED_DESCRIPTION": [
       "Not enough layers of  #rCalamity !"
     ]
   },
   "PF666": {
     "NAME": "PF666:Omen",
-    "DESCRIPTION": "Firearms NL Lose all Calamity. NL Remove Block from all enemies. NL Stun the enemy for one turn. NL Deal Fixed damage equal to 3 times of Showtime you have. NL Exhaust. Ethereal.",
+    "DESCRIPTION": "Firearms NL Lose all Calamity. NL Remove Block from all enemies. NL Stun the enemy for one turn. NL Deal #yFixed_Damage equal to 3 times of Showtime you have. NL Exhaust. Ethereal.",
     "EXTENDED_DESCRIPTION": [
       "Not enough layers of  #rCalamity!"
     ]
@@ -352,7 +352,7 @@
   },
   "Rainstorm": {
     "NAME": "Rain Storm",
-    "DESCRIPTION": "Firearms NL Deal 5 Fixed damage to a random enemy 3 times for every stack of Showtime on you. NL Gain 2 Showtime. NL Exhaust. Ethereal."
+    "DESCRIPTION": "Firearms NL Deal 5 #yFixed_Damage to a random enemy 3 times for every stack of Showtime on you. NL Gain 2 Showtime. NL Exhaust. Ethereal."
   },
   "Rebellionsword": {
     "NAME": "Over Drive",
@@ -445,7 +445,7 @@
   },
   "Gunstinger": {
     "NAME": "Gun Stinger",
-    "DESCRIPTION": "Firearms NL Deal 10-20 Fixed damage that ignores Block.",
+    "DESCRIPTION": "Firearms NL Deal 10-20 #yFixed_Damage that ignores Block.",
     "EXTENDED_DESCRIPTION": [
       "Related Weapon",
       "Gain #b1 Showtime when using #yCoyote-A."
@@ -453,7 +453,7 @@
   },
   "Holywater": {
     "NAME": "Holy Water",
-    "DESCRIPTION": "Lose 80 coins. NL Deal 20 Fixed damage to all enemies. NL Ignores Block. NL Exhaust.",
+    "DESCRIPTION": "Lose 80 coins. NL Deal 20 #yFixed_Damage to all enemies. NL Ignores Block. NL Exhaust.",
     "EXTENDED_DESCRIPTION": [
       "Not enough coins!"
     ]
