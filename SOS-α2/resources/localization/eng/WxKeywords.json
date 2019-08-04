@@ -1,6 +1,7 @@
 {
 	"keywords": [
     {
+		"PROPER_NAME": "Showtime",
     	"NAMES": [
         	"showtime",
         	"Showtime"
@@ -19,10 +20,10 @@
       	],
       	"DESCRIPTION": "Firearms attack cards, can be empowered by Gunslinger style."
     },{
+		"PROPER_NAME": "Fixed Damage",
     	"NAMES": [
-        	"fixed damage",
 			"Fixed Damage",
-			"fixeddamage"
+        	"fixed_damage"
       	],
       	"DESCRIPTION": "Deal damage unaffected by strength and state."
     },{
@@ -44,10 +45,10 @@
       	],
       	"DESCRIPTION": "Improves Firearms attack cards, gains special effect when you have Firearms weapon equipped."
     },{
+		"PROPER_NAME": "Devil Trigger",
     	"NAMES": [
-			"deviltrigger",
-			"devil trigger",
-        	"Devil Trigger"
+			"Devil Trigger",
+			"devil_trigger"
       	],
       	"DESCRIPTION": "Heal 3 Hp every 3 attacks, gain 7 strength every time SSS is triggered, lose 18 strength when the effect is removed."
     },{
@@ -73,7 +74,7 @@
         	"style",
         	"Style"
       	],
-      	"DESCRIPTION": "This is a style card, gain corresponding style."
+      	"DESCRIPTION": "This is a style card, gain corresponding style, improving your abilities."
     },{
     	"NAMES": [
         	"skystar",
@@ -87,24 +88,23 @@
       	],
       	"DESCRIPTION": "Related cards deal damage that ignores Block."
     },{
+		"PROPER_NAME": "Endless Swords",
     	"NAMES": [
-			"endless sword",
-			"endless swords",
-        	"Endless Sword"
+			"Endless Swords",
+			"endless_swords"
       	],
       	"DESCRIPTION": "On you: when receiving Attack damage, deal damage to the attacker. NL On enemy: Deal damage at the end of your turn."
     },{
     	"NAMES": [
-			"dimensionfissure",
-			"dimension fissure",
-        	"Dimension Fissure"
+			"distortion",
+			"Distortion"
       	],
       	"DESCRIPTION": "Can trigger special effect with Sheathing, lose 1 per at the end of your turn."
     },{
+		"PROPER_NAME": "True Damage",
     	"NAMES": [
-			"truedamage",
-			"true damage",
-        	"True Damage"
+			"True Damage",
+			"true_damage"
       	],
       	"DESCRIPTION": "Deal damage that ignores Block, will not trigger Thorns."
     },{
@@ -114,17 +114,16 @@
       	],
       	"DESCRIPTION": "Only one weapon can be equipped at the time, each has its own limits and triggers."
     },{
+		"PROPER_NAME": "Devil Arm",
     	"NAMES": [
-			"meleeweapon",
-			"melee weapon",
-        	"Melee Weapon"
+			"Devil Arm",
+			"devil_arm"
       	],
-      	"DESCRIPTION": "Melee weapons include Rebellion, Gilgamesh, Lucifer and Yamato."
+      	"DESCRIPTION": "Devil Arms weapons include Rebellion, Gilgamesh, Lucifer and Yamato."
     },{
     	"NAMES": [
-			"firearms weapon",
-        	"firearmsweapon",
-			"FirearmsWeapon"
+        	"firearm",
+			"Firearm"
       	],
       	"DESCRIPTION": "Firearms include Ebony&Ivory, Pandora and Coyote-A."
     },{
@@ -140,17 +139,17 @@
       	],
       	"DESCRIPTION": "Make enemy incapable of action."
     },{
+		"PROPER_NAME": "Demon Reform",
     	"NAMES": [
-        	"demonreform",
-			"Demonreform",
-			"demon reform"
+			"Demon Reform",
+        	"demon_reform"
       	],
       	"DESCRIPTION": "Gain Devil Trigger or improve Devil Trigger briefly."
     },{
+		"PROPER_NAME": "Style Card",
     	"NAMES": [
-			"stylecard",
-			"style card",
-        	"StyleCard"
+			"Style Card",
+			"style_card"
       	],
       	"DESCRIPTION": "Styles include Swordmaster, Gunslinger, Royalguard, Trickster and Dark Slayer."
     }

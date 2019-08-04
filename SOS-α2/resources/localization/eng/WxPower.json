@@ -48,14 +48,14 @@
     ]
   },
   "Endlessswordpower": {
-    "NAME": "EndlessSword",
+    "NAME": "Endless Swords",
     "DESCRIPTIONS": [
 		"When attacked, deal #b",
 		" #ydamage to the attacker, up to 15 stacks."
     ]
   },
   "Endlessswordpower2": {
-    "NAME": "EndlessSword",
+    "NAME": "Endless Swords",
     "DESCRIPTIONS": [
 		"Deal #b",
 		" #ydamage to the enemy at the start of enemy's turn, reset to 0 after that. Up to 15 stacks.",
